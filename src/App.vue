@@ -1,18 +1,13 @@
 <template>
-
-      <router-view></router-view>
-  <MainPage msg="Welcome to Your Vue.js + TypeScript App"/>
+  <router-view></router-view>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import MainPage from './components/MainPage.vue';
 
 export default defineComponent({
   name: 'App',
-  components: {
-    MainPage,
-  }
+  components: {}
 });
 </script>
 
