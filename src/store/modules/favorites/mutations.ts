@@ -5,8 +5,8 @@ export default {
     state.books = books;
   },
 
-  SET_FAVORITES_BOOKS(state, favoriteBooks) {
-    state.favoriteBooks = favoriteBooks;
+  SET_FAVORITES_BOOKS(state, favoritesBooks) {
+    state.favoritesBooks = favoritesBooks;
   },
 
   RESET(state) {

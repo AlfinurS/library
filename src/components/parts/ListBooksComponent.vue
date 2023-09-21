@@ -1,19 +1,20 @@
 <template>
-  <ul class="catalog__list">
+  <ul class="catalog__grid">
       <li
         class="catalog__item"
         v-for="book in books.items"
         :key="book.id"
       >
-        <ItemBookComponent :book="book" ></ItemBookComponent>
+        <ItemBookComponent :book="book" @handleClick="handleClick"></ItemBookComponent>
       </li>
   </ul>
-
 </template>
 <script lang="ts">
-import { defineComponent, computed } from "vue";
+import { defineComponent, inject, computed } from "vue";
 import { useStore } from "vuex";
 import ItemBookComponent from "@/components/parts/ItemBookComponent.vue";
+import { bookListType, bookType } from "@/types/common";
+//import { bookConst } from "@/components/constants/common";
 
 export default defineComponent({
   name: "ListBooksComponent",
@@ -22,61 +23,78 @@ export default defineComponent({
   },
 
   setup() {
+    const axios: any = inject("axios");
     const store = useStore();
+    const url = `https://www.googleapis.com/books/v1/volumes?q=%22subject%3AArchitecture%22&key=&printType=books&maxResults=40`;
     const favoritesBooks = computed(() => store.getters["favorites/favoritesBooks"]);
     const books = computed(() => store.getters["favorites/books"]);
-    return { books, favoritesBooks };
+    const getBooks = () => {
+      axios
+        .get(url)
+        .then(( { data }: { data: bookListType }) => {
+          store.dispatch("favorites/addBooks", data);
+        })
+        .catch(() => {
+          console.log("error");
+        });
+    };
+    getBooks()
+
+    const handleClick = (book: bookType) => {
+      const result = JSON.parse(JSON.stringify(favoritesBooks.value));
+      if (favoritesBooks.value.items.includes(book.id)) {
+        const index = favoritesBooks.value.items.indexOf(book.id);
+        console.log(index)
+        if (index !== -1) {
+          result.items.splice(index, 1);
+          store.dispatch("favorites/setFavoritesBooks", result);
+          
+        }
+      } else {
+        result.items.push(book.id)
+        store.dispatch("favorites/setFavoritesBooks", result);
+        console.log(book.id)
+      }
+    }
+
+    return { getBooks, books, favoritesBooks, handleClick, };
   },
-  
 });
 </script>
 
 <style lang="scss" scoped>
 .catalog {
-  &__list {
-    margin-top: 40px;
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+      @media (min-width: 748px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 18px; 
+    }
+      @media (min-width: 1200px) {
+        grid-template-columns: 1fr 1fr  1fr 1fr;
+    }
   }
   &__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    box-shadow: 0px 5px 7px -2px #aaacb1;
-    border-radius: 18px;
-    background-color: #aaacb1;
-    padding: 32px 18px;
-      @media (min-width: 748px) {
-        flex-direction: row;
-      }
-      @media (min-width: 1200px) {
-        flex-direction: row;
-      }
-  }
-  
-  &__image {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    display: grid;
+    grid-template-rows: 234px;
+    justify-items: center;
+    justify-content: center;
+    max-width: 250px;
     width: 100%;
-    height: 100%;
-    object-position: center;
-    object-fit: cover;
-    &-wrapper {
-      width: 60px;
+    box-shadow: 1px 5px 7px -2px rgba(154, 128, 184, 0.329);
+    border-radius: 18px;
+    background-color: #ffffff;
+    padding: 38px 30px;
+      @media (min-width: 838px) {
+        max-width: 340px;
     }
-    &-wrap {
-      position: relative;
-      overflow: hidden;
-      width: 100%;
-      padding-bottom: 116%;
-    }
-  }
-  &__title {
-    margin-right: 18px;
-    margin-left: 18px;
-    text-align: center;
-    @media (min-width: 748px) {
-      text-align: left;
+      @media (min-width: 1320px) {
+        max-width: 240px;
     }
   }
 }

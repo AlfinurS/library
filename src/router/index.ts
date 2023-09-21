@@ -7,6 +7,16 @@ const routes = [
     name: "MainPage",
     component: MainPage,
   },
+  {
+    path: "/favorites",
+    name: "FavoritesPage",
+    component: () => import("@/components/FavoritesPage.vue"),
+  },
+  {
+    path: "/book/:id",
+    name: "BookDetailsPage",
+    component: () => import("@/components/BookDetailsPage.vue"),
+  },
   
 ];
 

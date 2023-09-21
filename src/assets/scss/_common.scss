@@ -12,13 +12,24 @@
 }
 
 a {
-  text-decoration-line: none !important;
+  text-decoration: none !important;
   display: block;
   line-height: 0px;
+}
+
+ol, ul {
+	list-style: none;
 }
 
 body {
   margin: 0;
   background-color: $background;
 }
-
+.layout {
+  max-width: 1320px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
