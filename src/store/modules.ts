@@ -10,5 +10,5 @@ export default {
     actions: favoritesActions,
     mutations: favoritesMuations,
     getters: favoritesGetters,
-  },
+  }
 };

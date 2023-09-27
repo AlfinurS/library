@@ -1,25 +1,36 @@
 <template>
-  <ul class="catalog__grid">
+<h3>Избранные книги</h3>
+  <div v-if="favoritesBooks">
+    <ul class="catalog__grid">
       <li
         class="catalog__item"
         v-for="book in favoritesBooks.items"
         :key="book.id"
       >
-        <ItemBookComponent :book="book" ></ItemBookComponent>
+        <router-link
+          :to="{ name: 'BookDetailsPage', params: { id: book.id } }"
+          class="cart__image-wrapper link"
+        >
+        <img
+          class="catalog__image"
+          :src="getImage(book.volumeInfo.imageLinks.smallThumbnail)"
+          :alt="book.volumeInfo.title"
+        >
+        </router-link>
       </li>
-  </ul>
+    </ul>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, computed } from "vue";
 import { useStore } from "vuex";
-import ItemBookComponent from "@/components/parts/ItemBookComponent.vue";
 
 
 export default defineComponent({
   name: "FavoritesPage",
   components: {
-    ItemBookComponent,
+    
   },
   setup() {
     const store = useStore();

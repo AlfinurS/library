@@ -78,4 +78,3 @@ export type bookType = {
     "quoteSharingAllowed": boolean
   }
 };
-

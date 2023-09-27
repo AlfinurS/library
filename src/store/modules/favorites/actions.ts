@@ -7,21 +7,6 @@ export default {
     commit("SET_BOOKS", books);
   },
 
-/*   setFavoritesBooks: ({ commit, state }, book: bookType) => {
-   const result = JSON.parse(JSON.stringify(state.favoritesBooks[0]));
-   //const value = Object.values(state.favoritesBooks)[book.id];
-   console.log(result)
-/*    if (Object.prototype.hasOwnProperty.call(state.favoritesBooks, book.id)) {
-    
-  } */
-   //console.log(result)
-    /* const isFindBook = result.find((item) => item.id === book.id);
-    console.log(isFindBook)
-    if (isFindBook) {
-      state.favoritesBooks.items.splice(state.favoritesBooks.items.indexOf(isFindBook), 1);
-    } else state.favoritesBooks.items.push(book); */
-   
-
   setFavoritesBooks: ({ commit }, favoritesBooks: bookListType) => {
     commit("SET_FAVORITES_BOOKS", favoritesBooks);
   },
@@ -31,3 +16,5 @@ export default {
     commit("RESET");
   },
 };
+
+

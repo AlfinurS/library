@@ -26,8 +26,11 @@ export default defineComponent({
     const axios: any = inject("axios");
     const store = useStore();
     const url = `https://www.googleapis.com/books/v1/volumes?q=%22subject%3AArchitecture%22&key=&printType=books&maxResults=40`;
-    const favoritesBooks = computed(() => store.getters["favorites/favoritesBooks"]);
-    const books = computed(() => store.getters["favorites/books"]);
+    const favoritesBooks = computed(
+      (): bookListType => store.getters["favorites/favoritesBooks"]);
+    const books = computed(
+      (): bookListType => store.getters["favorites/books"]);
+      
     const getBooks = () => {
       axios
         .get(url)
@@ -40,24 +43,38 @@ export default defineComponent({
     };
     getBooks()
 
-    const handleClick = (book: bookType) => {
+
+    const saveLocalStorage = (favorites) => {
+      localStorage.setItem("favorites", JSON.stringify(favorites));
+    }
+      //currentBook - объект, result - объект
+    const handleClick = (book) => {
       const result = JSON.parse(JSON.stringify(favoritesBooks.value));
-      if (favoritesBooks.value.items.includes(book.id)) {
-        const index = favoritesBooks.value.items.indexOf(book.id);
-        console.log(index)
+      const currentBook = result.items.find((item: bookType) => item.id === book.id);
+      if (currentBook) {
+        const index = result.items.indexOf(currentBook);
         if (index !== -1) {
           result.items.splice(index, 1);
-          store.dispatch("favorites/setFavoritesBooks", result);
-          
         }
-      } else {
-        result.items.push(book.id)
-        store.dispatch("favorites/setFavoritesBooks", result);
-        console.log(book.id)
+      } else { 
+        result.items.push(book);
+      }
+      saveLocalStorage(result);
+      store.dispatch("favorites/setFavoritesBooks", result)
+    };
+
+
+    const getLocalStorage = () => {
+      const value = localStorage.getItem("favorites");
+      if (value) {
+        const favoritesData = JSON.parse(value);
+      console.log(favoritesData)
       }
     }
+    getLocalStorage()
+    
 
-    return { getBooks, books, favoritesBooks, handleClick, };
+    return { getBooks, books, favoritesBooks, handleClick };
   },
 });
 </script>

@@ -24,13 +24,13 @@
         </span>
     </div>
     <div class="icon__wrapp">
-      <ButtonComponent @onClick="handleClick" 
+      <ButtonComponent @onClick="handleClick" @click="saveStatusLocalStorage"
       v-if="!isFavorite" 
-      :icon="iconMark" 
+      icon="iconMark" 
       class="icon__color">
       </ButtonComponent>
       
-      <ButtonComponent @onClick="handleClick" 
+      <ButtonComponent @onClick="handleClick" @click="saveStatusLocalStorage"
       v-if="isFavorite" 
       icon="iconMark"
       class="icon__color--active">
@@ -44,7 +44,6 @@ import { useStore } from "vuex";
 import { bookType } from "@/types/common";
 import { bookConst } from "@/components/constants/common";
 import ButtonComponent from "@/components/parts/ButtonComponent.vue";
-
 
 export default defineComponent({
   name: "ItemBookComponent",
@@ -63,19 +62,31 @@ export default defineComponent({
   setup(props, { emit }) {
     const store = useStore();
     const favoritesBooks = computed(() => store.getters["favorites/favoritesBooks"]);
-
     const getImage = (image): string => {
       return `${image}`;
     }
     const isFavorite = computed((): boolean => {
-      if (!favoritesBooks.value.items.includes(props.book.id)) return false;
-      return favoritesBooks.value.items.includes(props.book.id)
+       return favoritesBooks.value.items.some((b) => b.id === props.book.id);
     });
+
+    const saveStatusLocalStorage = (isFavorite) => {
+      localStorage.setItem("isFavorite", JSON.stringify(isFavorite));
+    }
+
+    const getLocalStorage = () => {
+      const value = localStorage.getItem("isFavorite");
+      if (value) {
+        const favoritesData = JSON.parse(value);
+      return favoritesData;
+      }
+    }
+    getLocalStorage()
+    
     const handleClick = () => {
       emit("handleClick", props.book);
     };
 
-    return { getImage, handleClick, favoritesBooks, isFavorite };
+    return { getImage, handleClick, favoritesBooks, isFavorite, saveStatusLocalStorage, getLocalStorage };
   },
   
 });
