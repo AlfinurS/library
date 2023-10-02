@@ -14,7 +14,6 @@ import { defineComponent, inject, computed } from "vue";
 import { useStore } from "vuex";
 import ItemBookComponent from "@/components/parts/ItemBookComponent.vue";
 import { bookListType, bookType } from "@/types/common";
-//import { bookConst } from "@/components/constants/common";
 
 export default defineComponent({
   name: "ListBooksComponent",
@@ -25,7 +24,8 @@ export default defineComponent({
   setup() {
     const axios: any = inject("axios");
     const store = useStore();
-    const url = `https://www.googleapis.com/books/v1/volumes?q=%22subject%3AArchitecture%22&key=&printType=books&maxResults=40`;
+    const url = `https://www.googleapis.com/books/v1/volumes?q=architecture%22&key=&printType=books&maxResults=40`;
+    
     const favoritesBooks = computed(
       (): bookListType => store.getters["favorites/favoritesBooks"]);
     const books = computed(
@@ -59,7 +59,7 @@ export default defineComponent({
       } else { 
         result.items.push(book);
       }
-      saveLocalStorage(result);
+      saveLocalStorage(result.items);
       store.dispatch("favorites/setFavoritesBooks", result)
     };
 
@@ -67,8 +67,8 @@ export default defineComponent({
     const getLocalStorage = () => {
       const value = localStorage.getItem("favorites");
       if (value) {
-        const favoritesData = JSON.parse(value);
-      console.log(favoritesData)
+        const favoritesData: bookType[] = JSON.parse(value);
+        store.dispatch("favorites/setFavoritesBooks", {items: favoritesData})
       }
     }
     getLocalStorage()
@@ -84,15 +84,18 @@ export default defineComponent({
   &__grid {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 18px; 
     justify-items: center;
     align-items: center;
     margin-top: 20px;
-      @media (min-width: 748px) {
+      @media (min-width: 960px) {
       grid-template-columns: 1fr 1fr;
-      gap: 18px; 
     }
-      @media (min-width: 1200px) {
-        grid-template-columns: 1fr 1fr  1fr 1fr;
+      @media (min-width: 1190px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+      @media (min-width: 1320px) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
   &__item {
@@ -107,11 +110,17 @@ export default defineComponent({
     border-radius: 18px;
     background-color: #ffffff;
     padding: 38px 30px;
-      @media (min-width: 838px) {
-        max-width: 340px;
+      @media (max-width: 1320px) {
+        max-width: 320px;
     }
-      @media (min-width: 1320px) {
-        max-width: 240px;
+      @media (max-width: 1180px) {
+        max-width: 400px;
+    }
+      @media (max-width: 960px) {
+        max-width: 360px;
+    }
+      @media (max-width: 470px) {
+        max-width: 250px;
     }
   }
 }

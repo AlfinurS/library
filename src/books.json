@@ -1,0 +1,2951 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 513,
+  "items": [
+      {
+          "kind": "books#volume",
+          "id": "5UZ-AQAAQBAJ",
+          "etag": "yOYtmH80HWM",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5UZ-AQAAQBAJ",
+          "volumeInfo": {
+              "title": "Just Enough Software Architecture",
+              "subtitle": "A Risk-Driven Approach",
+              "authors": [
+                  "George Fairbanks"
+              ],
+              "publisher": "Marshall & Brainerd",
+              "publishedDate": "2010-08-30",
+              "description": "This is a practical guide for software developers, and different than other software architecture books. Here's why: It teaches risk-driven architecting. There is no need for meticulous designs when risks are small, nor any excuse for sloppy designs when risks threaten your success. This book describes a way to do just enough architecture. It avoids the one-size-fits-all process tar pit with advice on how to tune your design effort based on the risks you face. It democratizes architecture. This book seeks to make architecture relevant to all software developers. Developers need to understand how to use constraints as guiderails that ensure desired outcomes, and how seemingly small changes can affect a system's properties. It cultivates declarative knowledge. There is a difference between being able to hit a ball and knowing why you are able to hit it, what psychologists refer to as procedural knowledge versus declarative knowledge. This book will make you more aware of what you have been doing and provide names for the concepts. It emphasizes the engineering. This book focuses on the technical parts of software development and what developers do to ensure the system works not job titles or processes. It shows you how to build models and analyze architectures so that you can make principled design tradeoffs. It describes the techniques software designers use to reason about medium to large sized problems and points out where you can learn specialized techniques in more detail. It provides practical advice. Software design decisions influence the architecture and vice versa. The approach in this book embraces drill-down/pop-up behavior by describing models that have various levels of abstraction, from architecture to data structure design.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780984618101"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0984618104"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 376,
+              "printType": "BOOK",
+              "categories": [
+                  "Computers"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": true,
+              "contentVersion": "1.1.2.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=5UZ-AQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=5UZ-AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=5UZ-AQAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=5UZ-AQAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Just_Enough_Software_Architecture.html?hl=&id=5UZ-AQAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true
+              },
+              "pdf": {
+                  "isAvailable": true
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=5UZ-AQAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "This is a practical guide for software developers, and different than other software architecture books."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "PYWzBgAAQBAJ",
+          "etag": "Zhn+leIO4Co",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/PYWzBgAAQBAJ",
+          "volumeInfo": {
+              "title": "Modern Architecture in Latin America",
+              "subtitle": "Art, Technology, and Utopia",
+              "authors": [
+                  "Luis E. Carranza",
+                  "Fernando Luiz Lara"
+              ],
+              "publisher": "University of Texas Press",
+              "publishedDate": "2015-01-05",
+              "description": "Modern Architecture in Latin America: Art, Technology, and Utopia is an introductory text on the issues, polemics, and works that represent the complex processes of political, economic, and cultural modernization in the twentieth century. The number and types of projects varied greatly from country to country, but, as a whole, the region produced a significant body of architecture that has never before been presented in a single volume in any language. Modern Architecture in Latin America is the first comprehensive history of this important production. Designed as a survey and focused on key examples/paradigms arranged chronologically from 1903 to 2003, this volume covers a myriad of countries; historical, social, and political conditions; and projects/developments that range from small houses to urban plans to architectural movements. The book is structured so that it can be read in a variety of ways—as a historically developed narrative of modern architecture in Latin America, as a country-specific chronology, or as a treatment of traditions centered on issues of art, technology, or utopia. This structure allows readers to see the development of multiple and parallel branches/historical strands of architecture and, at times, their interconnections across countries. The authors provide a critical evaluation of the movements presented in relationship to their overall goals and architectural transformations.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780292762978"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0292762976"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 425,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=PYWzBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=PYWzBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=PYWzBgAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=PYWzBgAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Modern_Architecture_in_Latin_America.html?hl=&id=PYWzBgAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=PYWzBgAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "The book is structured so that it can be read in a variety of ways—as a historically developed narrative of modern architecture in Latin America, as a country-specific chronology, or as a treatment of traditions centered on issues of art, ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "QXwyngEACAAJ",
+          "etag": "ESMQp+oozqQ",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/QXwyngEACAAJ",
+          "volumeInfo": {
+              "title": "How Architecture Works",
+              "subtitle": "A Humanist's Toolkit",
+              "authors": [
+                  "Witold Rybczynski"
+              ],
+              "publisher": "Farrar, Straus and Giroux",
+              "publishedDate": "2014-10-07",
+              "description": "An essential toolkit for understanding architecture as both art form and the setting for our everyday lives We spend most of our days and nights in buildings, living and working and sometimes playing. Architecture is both the setting for our everyday lives and a public art form—but it remains mysterious to most of us. In How Architecture Works, Witold Rybczynski, one of our best, most stylish critics and the winner of the Vincent Scully Prize for his writing on architecture, answers our most fundamental questions about how good—and not so good—buildings are designed and constructed. Introducing the reader to the rich and varied world of modern architecture, he reveals how architects as diverse as Frank Gehry, Renzo Piano, and Robert A. M. Stern envision and create their designs. He teaches us how to \"read\" plans, how buildings respond to their settings, and how the smallest detail—of a stair balustrade, for instance—can convey an architect's vision. How Architecture Works explains the central elements that make up good building design, ranging from a war memorial in London to an opera house in Saint Petersburg, from the National Museum of African American History and Culture in Washington, D.C., to a famous architect's private retreat in Princeton, New Jersey. It is an enlightening humanist's toolkit for thinking about the built environment and seeing it afresh. \"Architecture, if it is any good, speaks to all of us,\" Rybczynski writes. This revelatory book is his grand tour of architecture today.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0374534829"
+                  },
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780374534820"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 0,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "averageRating": 4,
+              "ratingsCount": 3,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=QXwyngEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=QXwyngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=QXwyngEACAAJ&dq=architecture%22&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=QXwyngEACAAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/How_Architecture_Works.html?hl=&id=QXwyngEACAAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=QXwyngEACAAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "It is an enlightening humanist&#39;s toolkit for thinking about the built environment and seeing it afresh. &quot;Architecture, if it is any good, speaks to all of us,&quot; Rybczynski writes. This revelatory book is his grand tour of architecture today."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "1XaISgAACAAJ",
+          "etag": "TOCo2fob75U",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/1XaISgAACAAJ",
+          "volumeInfo": {
+              "title": "Thinking Architecture",
+              "authors": [
+                  "Peter Zumthor"
+              ],
+              "publisher": "Birkhauser",
+              "publishedDate": "2010",
+              "description": "Here, Peter Zumthor articulates what motivates him to design his buildings, which appeal to the visitor's heart and mind in so many different ways and possess a compelling and unmistakable presence and aura.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "3034605854"
+                  },
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9783034605854"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 111,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=1XaISgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=1XaISgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=1XaISgAACAAJ&dq=architecture%22&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=1XaISgAACAAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Thinking_Architecture.html?hl=&id=1XaISgAACAAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=1XaISgAACAAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "In «Die Leiserhäuser» beschreibt Peter Zumthor das Entstehen zweier Holzhäuser im bündnerischen Leis und thematisiert damit die besondere Herausforderung, zeitgenössische Architektur in einen traditionellen baulichen Kontext zu ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "jpUHuAAACAAJ",
+          "etag": "TtG3f9Kdhbk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/jpUHuAAACAAJ",
+          "volumeInfo": {
+              "title": "Software Architecture in Practice",
+              "authors": [
+                  "Len Bass",
+                  "Paul Clements",
+                  "Rick Kazman"
+              ],
+              "publisher": "Addison-Wesley Professional",
+              "publishedDate": "2012-09-25",
+              "description": "The award-winning and highly influential Software Architecture in Practice, Third Edition, has been substantially revised to reflect the latest developments in the field. In a real-world setting, the book once again introduces the concepts and best practices of software architecture—how a software system is structured and how that system’s elements are meant to interact. Distinct from the details of implementation, algorithm, and data representation, an architecture holds the key to achieving system quality, is a reusable asset that can be applied to subsequent systems, and is crucial to a software organization’s business strategy. The authors have structured this edition around the concept of architecture influence cycles. Each cycle shows how architecture influences, and is influenced by, a particular context in which architecture plays a critical role. Contexts include technical environment, the life cycle of a project, an organization’s business profile, and the architect’s professional practices. The authors also have greatly expanded their treatment of quality attributes, which remain central to their architecture philosophy—with an entire chapter devoted to each attribute—and broadened their treatment of architectural patterns. If you design, develop, or manage large software systems (or plan to do so), you will find this book to be a valuable resource for getting up to speed on the state of the art. Totally new material covers Contexts of software architecture: technical, project, business, and professional Architecture competence: what this means both for individuals and organizations The origins of business goals and how this affects architecture Architecturally significant requirements, and how to determine them Architecture in the life cycle, including generate-and-test as a design philosophy; architecture conformance during implementation; architecture and testing; and architecture and agile development Architecture and current technologies, such as the cloud, social networks, and end-user devices",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0321815734"
+                  },
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780321815736"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 640,
+              "printType": "BOOK",
+              "categories": [
+                  "Computers"
+              ],
+              "averageRating": 3.5,
+              "ratingsCount": 2,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=jpUHuAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=jpUHuAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=jpUHuAAACAAJ&dq=architecture%22&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=jpUHuAAACAAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Software_Architecture_in_Practice.html?hl=&id=jpUHuAAACAAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=jpUHuAAACAAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "The authors have structured this edition around the concept of architecture influence cycles. Each cycle shows how architecture influences, and is influenced by, a particular context in which architecture plays a critical role."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "VgtWlAEACAAJ",
+          "etag": "jP9YQO9QYtQ",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/VgtWlAEACAAJ",
+          "volumeInfo": {
+              "title": "Pervasive Information Architecture",
+              "subtitle": "Designing Cross-channel User Experiences",
+              "authors": [
+                  "Andrea Resmini",
+                  "Luca Rosati"
+              ],
+              "publisher": "Morgan Kaufmann Pub",
+              "publishedDate": "2011",
+              "description": "Key Features --",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0123820944"
+                  },
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780123820945"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 250,
+              "printType": "BOOK",
+              "categories": [
+                  "Computers"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=VgtWlAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=VgtWlAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=VgtWlAEACAAJ&dq=architecture%22&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=VgtWlAEACAAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Pervasive_Information_Architecture.html?hl=&id=VgtWlAEACAAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=VgtWlAEACAAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "This book will be of value to practitioners, researchers, academics, andstudents in user experience design, usability, information architecture, interaction design, HCI, web interaction/interface designer, mobile application ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "z4JQAAAAMAAJ",
+          "etag": "dEVqE1ESt/w",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/z4JQAAAAMAAJ",
+          "volumeInfo": {
+              "title": "Integrated Buildings",
+              "subtitle": "The Systems Basis of Architecture",
+              "authors": [
+                  "Leonard R. Bachman"
+              ],
+              "publisher": "John Wiley & Sons",
+              "publishedDate": "2003",
+              "description": "An \"anatomical\" study of building systems integration with guidelines for practical applications Through a systems approach to buildings, Integrated Buildings: The Systems Basis of Architecture details the practice of integration to bridge the gap between the design intentions and technical demands of building projects. Analytic methods are introduced that illustrate the value, benefit, and application of systems integration, as well as guidelines for selecting technical systems in the conceptual, schematic, and design development stages of projects. Landmark structures such as Eero Saarinen's John Deere Headquarters, Renzo Piano's Kansai International Airport, Glenn Murcutt's Magney House, and Richard Rogers's Lloyd's of London headquarters are presented as part of an extensive collection of case studies organized into seven categories: Laboratories Offices Pavilions Green Architecture High Tech Architecture Airport Terminals Residential Architecture Advanced material is provided on methods of integration, including an overview of integration topics, the systems basis of architecture, and the integration potential of various building systems. An expanded case study of Ibsen Nelsen's design for the Pacific Museum of Flight is used to demonstrate case study methods for tracing integration through any work of architecture. Visually enhanced with more than 300 illustrations, diagrams, and photographs, Integrated Buildings: The Systems Basis of Architecture is a valuable reference guide for architecture and civil engineering students, as well as architects, engineers, and other professionals in the construction industry.",
+              "industryIdentifiers": [
+                  {
+                      "type": "OTHER",
+                      "identifier": "UOM:39015056243887"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 504,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.8.2.0.preview.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=z4JQAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=z4JQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=z4JQAAAAMAAJ&q=architecture%22&dq=architecture%22&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=z4JQAAAAMAAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Integrated_Buildings.html?hl=&id=z4JQAAAAMAAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=z4JQAAAAMAAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "An &quot;anatomical&quot; study of building systems integration with guidelines for practical applications Through a systems approach to buildings, Integrated Buildings: The Systems Basis of Architecture details the practice of integration to bridge ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "auSMEAAAQBAJ",
+          "etag": "Bz9m0r0BakI",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/auSMEAAAQBAJ",
+          "volumeInfo": {
+              "title": "The Four Books on Architecture",
+              "authors": [
+                  "Andrea Palladio"
+              ],
+              "publisher": "National Geographic Books",
+              "publishedDate": "2002-08-23",
+              "description": "The Renaissance architect Andrea Palladio was one of the most influential figures that the field of architecture has ever produced. For classical architects, the term Palladian stands for a vocabulary of architectural forms embodying perfection and beauty. Of even greater significance than Palladio's buildings is his treatise I quattro libri dell'architettura (The Four Books On Architecture), the most successful architectural treatise of the Renaissance and one of the two or three most important books in the literature of architecture. First published in Italian in 1570, it has been translated into every major Western language. This is the first English translation of Palladio in over 250 years, making it the only translation available in modern English. Until now, English-language readers have had to rely mostly on a facsimile of Isaac Ware's 1738 translation and the eighteenth-century engravings prepared for that text. This new translation by Robert Tavernor and Richard Schofield contains Palladio's original woodcuts, reproduced in facsimile and positioned correctly, adjacent to the text. The book also contains a glossary that explains technical terms in their original context, a bibliography of recent Palladio research, and an introduction to Palladio and his times. The First Book discusses building materials and techniques, as well as the five orders of architecture: Tuscan, Doric, Ionic, Corinthian, and Composite. Palladio describes the characteristics of each order and illustrates them. The Second Book discusses private town houses and country estates, almost all designed by Palladio. The Third Book discusses streets, bridges, piazzas, and basilicas, most of ancient Roman origin. The Fourth Book discusses ancient Roman temples, including the Pantheon.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780262661331"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0262661330"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": false
+              },
+              "pageCount": 0,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=auSMEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=auSMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=auSMEAAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=auSMEAAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/The_Four_Books_on_Architecture.html?hl=&id=auSMEAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=auSMEAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "The Second Book discusses private town houses and country estates, almost all designed by Palladio. The Third Book discusses streets, bridges, piazzas, and basilicas, most of ancient Roman origin."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "2N7m-pNMe6oC",
+          "etag": "2P3O/PnMfMk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/2N7m-pNMe6oC",
+          "volumeInfo": {
+              "title": "X-Ray Architecture",
+              "authors": [
+                  "Beatriz Colomina"
+              ],
+              "publisher": "Lars Muller Publishers",
+              "publishedDate": "2019",
+              "description": "X-Ray Architecture explores the enormous impact of medical discourse and imaging technologies on the formation, representation and reception of twentieth-century architecture. It challenges the normal understanding of modern architecture by proposing that it was shaped by the dominant medical obsession of its time: tuberculosis and its primary diagnostic tool, the X-ray. Modern architecture and the X-ray were born around the same time and evolved in parallel. While the X-ray exposed the inside of the body to the public eye, the modern building unveiled its interior, dramatically inverting the relationship between private and public. Architects presented their buildings as a kind of medical instrument for protecting and enhancing the body and psyche. Beatriz Colomina traces the psychopathologies of twentieth-century architecture--from the trauma of tuberculosis to more recent disorders such as burn-out syndrome and ADHD--and the huge transformations of privacy and publicity instigated by diagnostic tools from X-Rays to MRIs and beyond. She suggests that if we want to talk about the state of architecture today, we should look to the dominant obsessions with illness and the latest techniques of imaging the body--and ask what effects they have on the way we conceive architecture. --Publisher's website.",
+              "industryIdentifiers": [
+                  {
+                      "type": "OTHER",
+                      "identifier": "UIUC:30112116890887"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 208,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=2N7m-pNMe6oC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=2N7m-pNMe6oC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=2N7m-pNMe6oC&q=architecture%22&dq=architecture%22&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=2N7m-pNMe6oC&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/X_Ray_Architecture.html?hl=&id=2N7m-pNMe6oC"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=2N7m-pNMe6oC&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "X-Ray Architecture explores the enormous impact of medical discourse and imaging technologies on the formation, representation and reception of twentieth-century architecture."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "nl1Q4DUxYnQC",
+          "etag": "2o/+DYQVKtI",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/nl1Q4DUxYnQC",
+          "volumeInfo": {
+              "title": "Cardboard in Architecture",
+              "authors": [
+                  "Mick Eekhout",
+                  "Fons Verheijen",
+                  "Ronald Visser"
+              ],
+              "publisher": "IOS Press",
+              "publishedDate": "2008",
+              "description": "The Department of Building Technology at the Faculty of Architecture at TU Delft is studying and developing cardboard as a potential building material on a broad, systematic and where possible comprehensive basis. The guiding research question is: \"How can cardboard be used in both architectural and structural terms as a fully fledged building material, making use of the material-specific properties?\" An exploratory phase from 2003 to 2005 - including an outdoor pilot structure (multi-shed), a pilot pavilion accommodating, an exhibition, workshops on resistance to fire and to damp, a first patent (KCPK), the design of an interior wall (Besin) and the publication of this book - was concluded by an international symposium attended by both the paper industry and the building industry. This publication comprises the report on that symposium.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781586038205"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1586038206"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 176,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "averageRating": 5,
+              "ratingsCount": 2,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.3.1.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=nl1Q4DUxYnQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=nl1Q4DUxYnQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=nl1Q4DUxYnQC&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=10&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=nl1Q4DUxYnQC&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Cardboard_in_Architecture.html?hl=&id=nl1Q4DUxYnQC"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Cardboard_in_Architecture-sample-pdf.acsm?id=nl1Q4DUxYnQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=nl1Q4DUxYnQC&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "&quot; An exploratory phase from 2003 to 2005 - including an outdoor pilot structure (multi-shed), a pilot pavilion accommodating, an exhibition, workshops on resistance to fire and to damp, a first patent (KCPK), the design of an interior wall ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "MchfvovmHeUC",
+          "etag": "rbN9+uMvE6A",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/MchfvovmHeUC",
+          "volumeInfo": {
+              "title": "The Architecture of Community",
+              "authors": [
+                  "Leon Krier"
+              ],
+              "publisher": "Island Press",
+              "publishedDate": "2009-05-08",
+              "description": "Leon Krier is one of the best-known—and most provocative—architects and urban theoreticians in the world. Until now, however, his ideas have circulated mostly among a professional audience of architects, city planners, and academics. In The Architecture of Community, Krier has reconsidered and expanded writing from his 1998 book Architecture: Choice or Fate. Here he refines and updates his thinking on the making of sustainable, humane, and attractive villages, towns, and cities. The book includes drawings, diagrams, and photographs of his built works, which have not been widely seen until now. With three new chapters, The Architecture of Community provides a contemporary road map for designing or completing today’s fragmented communities. Illustrated throughout with Krier’s original drawings, The Architecture of Community explains his theories on classical and vernacular urbanism and architecture, while providing practical design guidelines for creating livable towns. The book contains descriptions and images of the author’s built and unbuilt projects, including the Krier House and Tower in Seaside, Florida, as well as the town of Poundbury in England. Commissioned by the Prince of Wales in 1988, Krier’s design for Poundbury in Dorset has become a reference model for ecological planning and building that can meet contemporary needs.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781610911245"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1610911245"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": false
+              },
+              "pageCount": 496,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "averageRating": 5,
+              "ratingsCount": 1,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": true,
+              "contentVersion": "1.2.2.0.preview.2",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=MchfvovmHeUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=MchfvovmHeUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=MchfvovmHeUC&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=11&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=MchfvovmHeUC&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/The_Architecture_of_Community.html?hl=&id=MchfvovmHeUC"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/The_Architecture_of_Community-sample-epub.acsm?id=MchfvovmHeUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=MchfvovmHeUC&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "The book contains descriptions and images of the author’s built and unbuilt projects, including the Krier House and Tower in Seaside, Florida, as well as the town of Poundbury in England."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "oJx8EAAAQBAJ",
+          "etag": "D1C79EO0Zb8",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/oJx8EAAAQBAJ",
+          "volumeInfo": {
+              "title": "Architecture’s Theory",
+              "authors": [
+                  "Catherine Ingraham"
+              ],
+              "publisher": "MIT Press",
+              "publishedDate": "2023-04-18",
+              "description": "A collection of illuminating essays exploring what theory makes of architecture and what architecture makes of theory in philosophical and materialized contexts. From poststructuralism and deconstruction to current theories of technology and nature, critical theory has long been closely aligned with architecture. In turn, architecture as a thinking profession materializes theory in the form of built work that always carries symbolic loads. In this collection of essays, Catherine Ingraham studies the complex connectivity between architecture's discipline and practice and theories of philosophy, art, literature, history, and politics. She argues that there can be no architecture without theory. Whether considering architecture’s relationship to biomodernity or exploring the ways in which contemporary artists and designers engage in figural play, Ingraham offers provocative interpretations that enhance our understanding of both critical theory and architectural practice today. Along the way, she engages with a wide range of contemporary theorists, including Giorgio Agamben, Judith Butler, Jacques Derrida, Graham Harman, and Timothy Morton, considering buildings around the world, including the Palace of Culture in Warsaw, the Viceroy’s House complex in New Delhi, Mack Scogin and Merrill Elam's Wolfsburg Science Center project in Germany, and the Superdome in New Orleans. Approaching its subject matter from multiple angles, Architecture’s Theory shows how architecture's theoretical and artifactual practices have a unique power to alter culture.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780262544979"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0262544970"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 273,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.1.1.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=oJx8EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=oJx8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=oJx8EAAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=12&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=oJx8EAAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Architecture_s_Theory.html?hl=&id=oJx8EAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Architecture_s_Theory-sample-pdf.acsm?id=oJx8EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=oJx8EAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "In this collection of essays, Catherine Ingraham studies the complex connectivity between architecture&#39;s discipline and practice and theories of philosophy, art, literature, history, and politics."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "DVNBEAAAQBAJ",
+          "etag": "UPw+ub4dSQA",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/DVNBEAAAQBAJ",
+          "volumeInfo": {
+              "title": "Building in China",
+              "subtitle": "Henry K. Murphy's \"adaptive Architecture,\" 1914-1935",
+              "authors": [
+                  "Jeffrey W Cody"
+              ],
+              "publisher": "The Chinese University of Hong Kong Press",
+              "publishedDate": "2021-01-15",
+              "description": "Building in China is about striking an architectural balance between the pull of monumental tradition and the push of technological novelty. Centering on the dynamic period of post-imperial and pre-Communist China, the book focuses on the building and city planning initiatives of Henry Murphy, a little-known American architect who initially ventured to China in 1914 to design a campus for the Yale-in-China programme, but who then found himself captivated by a professional and cultural challenge that lasted two decades: how to preserve China's rich architectural traditions while also designing new buildings using up-to-date Western technologies. Murphy's buildings were compromises — \" wine in old bottles\" as he once called them — and the book uses those \"tles\" as lenses through which to understand not only Murphy's quest to find a middle ground for his architecture in China, but also to gaze at a tumultuous society facing an uncertain future. Murphy's buildings were more than vessels for either aesthetic visions or technical expertise; inadvertently they became political emblems, as Chinese rulers such as Chiang Kai-shek and Sun Yat-sen's son called on Murphy for city planning advice to complement their hopes for urban reconstruction. There are few serious studies of Western architects in the twentieth century who practiced in non-Western contexts, and those scant studies that have been published concentrate largely on British, French or Dutch examples in colonial settings. Hence, the book makes significant contributions to the fields of both American and Chinese architectural history.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9789882378742"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "9882378749"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 256,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=DVNBEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=DVNBEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=DVNBEAAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=13&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=DVNBEAAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Building_in_China.html?hl=&id=DVNBEAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Building_in_China-sample-pdf.acsm?id=DVNBEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=DVNBEAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Hence, the book makes significant contributions to the fields of both American and Chinese architectural history."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "dyPusXZQ6YIC",
+          "etag": "n4aiW5jcNks",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/dyPusXZQ6YIC",
+          "volumeInfo": {
+              "title": "Complexity and Contradiction in Architecture",
+              "authors": [
+                  "Robert Venturi",
+                  "Martino Stierli",
+                  "David Bruce Brownlee"
+              ],
+              "publisher": "The Museum of Modern Art",
+              "publishedDate": "1977",
+              "description": "Foreword by Arthur Drexler. Introduction by Vincent Scully.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0870702823"
+                  },
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780870702822"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 142,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "averageRating": 4,
+              "ratingsCount": 4,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.4.5.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=dyPusXZQ6YIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=dyPusXZQ6YIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=dyPusXZQ6YIC&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=14&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=dyPusXZQ6YIC&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Complexity_and_Contradiction_in_Architec.html?hl=&id=dyPusXZQ6YIC"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Complexity_and_Contradiction_in_Architec-sample-pdf.acsm?id=dyPusXZQ6YIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=dyPusXZQ6YIC&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Foreword by Arthur Drexler. Introduction by Vincent Scully."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "zT-3DwAAQBAJ",
+          "etag": "GLZwGWcaM5Q",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/zT-3DwAAQBAJ",
+          "volumeInfo": {
+              "title": "Modern Architecture and Climate",
+              "subtitle": "Design Before Air Conditioning",
+              "authors": [
+                  "Daniel A. Barber"
+              ],
+              "publisher": "Princeton University Press",
+              "publishedDate": "2020-07-07",
+              "description": "How climate influenced the design strategies of modernist architects Modern Architecture and Climate explores how leading architects of the twentieth century incorporated climate-mediating strategies into their designs, and shows how regional approaches to climate adaptability were essential to the development of modern architecture. Focusing on the period surrounding World War II—before fossil-fuel powered air-conditioning became widely available—Daniel Barber brings to light a vibrant and dynamic architectural discussion involving design, materials, and shading systems as means of interior climate control. He looks at projects by well-known architects such as Richard Neutra, Le Corbusier, Lúcio Costa, Mies van der Rohe, and Skidmore, Owings, and Merrill, and the work of climate-focused architects such as MMM Roberto, Olgyay and Olgyay, and Cliff May. Drawing on the editorial projects of James Marston Fitch, Elizabeth Gordon, and others, he demonstrates how images and diagrams produced by architects helped conceptualize climate knowledge, alongside the work of meteorologists, physicists, engineers, and social scientists. Barber describes how this novel type of environmental media catalyzed new ways of thinking about climate and architectural design. Extensively illustrated with archival material, Modern Architecture and Climate provides global perspectives on modern architecture and its evolving relationship with a changing climate, showcasing designs from Latin America, Europe, the United States, the Middle East, and Africa. This timely and important book reconciles the cultural dynamism of architecture with the material realities of ever-increasing carbon emissions from the mechanical cooling systems of buildings, and offers a historical foundation for today’s zero-carbon design.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780691170039"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0691170037"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 328,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.1.2.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=zT-3DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=zT-3DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=zT-3DwAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=15&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=zT-3DwAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Modern_Architecture_and_Climate.html?hl=&id=zT-3DwAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Modern_Architecture_and_Climate-sample-pdf.acsm?id=zT-3DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=zT-3DwAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Barber describes how this novel type of environmental media catalyzed new ways of thinking about climate and architectural design."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "A1ADCgAAQBAJ",
+          "etag": "fdGaq4vz9Zc",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/A1ADCgAAQBAJ",
+          "volumeInfo": {
+              "title": "The Architecture and Cities of Northern Mexico from Independence to the Present",
+              "authors": [
+                  "Edward Burian"
+              ],
+              "publisher": "University of Texas Press",
+              "publishedDate": "2015-08-15",
+              "description": "The states of Northern Mexico—Tamaulipas, Nuevo León, Coahuila, Chihuahua, Durango, Sonora, Sinaloa, and Baja California Norte and Sur—have architecture, urbanism, and landscape design that offer numerous lessons in how to build well, but this constructed environment is largely undervalued or unknown. To make this architecture better known to a wide professional, academic, and public audience, this book presents the first comprehensive overview in either English or Spanish of the architecture, urban landscapes, and cities of Northern Mexico from the country's emergence as a modern nation in 1821 to the present day. Profusely illustrated with color and black-and-white photographs, maps, and analytical drawings of urban cores of major cities, The Architecture and Cities of Northern Mexico systematically examines significant works of architecture in large cities and small towns in each state, from the earliest buildings in the urban core to the newest at the periphery. Edward R. Burian describes the most memorable works of architecture in each city in greater detail in terms of their spatial organization, materials, and sensory experience. He also includes a concise geographical and historical summary of the region that provides a useful background for the discussions of the works of architecture. Burian concludes the book with a brief commentary on lessons learned and possible futures for the architectural culture of the region, as well as the first comprehensive biographical listing of the architects practicing in Northern Mexico during the past two centuries.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781477307236"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1477307230"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 350,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.2.2.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=A1ADCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=A1ADCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=A1ADCgAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=16&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=A1ADCgAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/The_Architecture_and_Cities_of_Northern.html?hl=&id=A1ADCgAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true
+              },
+              "pdf": {
+                  "isAvailable": true
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=A1ADCgAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Burian concludes the book with a brief commentary on lessons learned and possible futures for the architectural culture of the region, as well as the first comprehensive biographical listing of the architects practicing in Northern Mexico ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "AbswDwAAQBAJ",
+          "etag": "Yped9bV7A+4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/AbswDwAAQBAJ",
+          "volumeInfo": {
+              "title": "French Gothic Architecture of the Twelfth and Thirteenth Centuries",
+              "authors": [
+                  "Jean Bony"
+              ],
+              "publisher": "Univ of California Press",
+              "publishedDate": "1983",
+              "description": "Traces the development of the Gothic style of architecture in France and examines the designs of French cathedrals and churches",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780520055865"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0520055861"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 672,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "averageRating": 4,
+              "ratingsCount": 1,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.1.2.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=AbswDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=AbswDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=AbswDwAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=17&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=AbswDwAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/French_Gothic_Architecture_of_the_Twelft.html?hl=&id=AbswDwAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/French_Gothic_Architecture_of_the_Twelft-sample-pdf.acsm?id=AbswDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=AbswDwAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Despite its evident scholarly intention, this book is not meant for specialists alone, but is conceived as a progressive infiltration into the complexities of history at work, revealing its unpredictable vitality to the uninitiated curious ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "FNqMEAAAQBAJ",
+          "etag": "hxD5q3CYGk0",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/FNqMEAAAQBAJ",
+          "volumeInfo": {
+              "title": "Programs and Manifestoes on 20th-Century Architecture",
+              "authors": [
+                  "Ulrich Conrads"
+              ],
+              "publisher": "National Geographic Books",
+              "publishedDate": "1975-11-15",
+              "description": "The present volume offers eloquent testimony that many of the master builders of this century have held passionate convictions regarding the philosophic and social basis of their art. Nearly every important development in the modern architectural movement began with the proclamation of these convictions in the form of a program or manifesto. The most influential of these are collected here in chronological order from 1903 to 1963. Taken together, they constitute a subjective history of modern architecture; compared with one another, their great diversity of style reveals in many cases the basic differences of attitude and temperament that produced a corresponding divergence in architectural style. In point of view, the book covers the aesthetic spectrum from right to left; from programs that rigidly generate designs down to the smallest detail to revolutionary manifestoes that call for anarchy in building form and town plan. The documents, placed in context by the editor, are also international in their range: among them are the seminal and prophetic statements of Henry van de Velde, Adolf Loos, and Bruno Taut from the early years of the century; Frank Lloyd Wright's 1910 annunciation of Organic Architecture; Gropius's original program for the Bauhaus, founded in Weimar in 1919; \"Towards a New Architecture, Guiding Principles\" by Le Corbusier; the formulation by Naum Gabo and Antoine Pevsner of the basic principles of Constructivism; and articles by R. Buckminster Fuller on universal architecture and the architect as world planner. Other pronouncements, some in flamboyant style, including those of Erich Mendelsohn, Hannes Meyer, Theo van Doesburg, Oskar Schlemmer, Ludwig Mies van der Rohe, El Lissitzky, and Louis I. Kahn. There are also a number of collective or group statements, issued in the name of movements such as CIAM, De Stijl, ABC, the Situationists, and GEAM. Since the dramatic effectiveness of the manifesto form is usually heightened by brevity and conciseness, it has been possible to reproduce most of the documents in their entirety; only a few have been excerpted.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780262530309"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0262530309"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": false
+              },
+              "pageCount": 0,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=FNqMEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=FNqMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=FNqMEAAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&cd=18&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=FNqMEAAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Programs_and_Manifestoes_on_20th_Century.html?hl=&id=FNqMEAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=FNqMEAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "The most influential of these are collected here in chronological order from 1903 to 1963."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "UGWSAgAAQBAJ",
+          "etag": "Py+TFIVUFpo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UGWSAgAAQBAJ",
+          "volumeInfo": {
+              "title": "The Transparent State",
+              "subtitle": "Architecture and Politics in Postwar Germany",
+              "authors": [
+                  "Deborah Ascher Barnstone"
+              ],
+              "publisher": "Routledge",
+              "publishedDate": "2004-11-10",
+              "description": "'The Transparent State' studies how the idea of transparency, a metaphor borrowed from political thought became an analogy for democratic architecture in postwar West Germany & led to the prevailing belief that transparency in governmental buildings can be equated with openness, accessibility & greater democracy.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781135996475"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1135996474"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 294,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.1.0.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=UGWSAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=UGWSAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=UGWSAgAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=19&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=UGWSAgAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/The_Transparent_State.html?hl=&id=UGWSAgAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/The_Transparent_State-sample-pdf.acsm?id=UGWSAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=UGWSAgAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "&#39;The Transparent State&#39; studies how the idea of transparency, a metaphor borrowed from political thought became an analogy for democratic architecture in postwar West Germany &amp; led to the prevailing belief that transparency in governmental ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "IyPWXbfRoNcC",
+          "etag": "LXlLc8OIsgs",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/IyPWXbfRoNcC",
+          "volumeInfo": {
+              "title": "Architecture for the Books",
+              "authors": [
+                  "Michael J. Crosbie"
+              ],
+              "publisher": "Images Publishing",
+              "publishedDate": "2003",
+              "description": "This book takes a look at the architectural design of library. Forty nine libraries are targeted, and includes plans of each library.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1876907495"
+                  },
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781876907495"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 232,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture, Modern"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.4.4.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=IyPWXbfRoNcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=IyPWXbfRoNcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=IyPWXbfRoNcC&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=20&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=IyPWXbfRoNcC&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Architecture_for_the_Books.html?hl=&id=IyPWXbfRoNcC"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Architecture_for_the_Books-sample-pdf.acsm?id=IyPWXbfRoNcC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=IyPWXbfRoNcC&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "This book takes a look at the architectural design of library. Forty nine libraries are targeted, and includes plans of each library."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "S87LDHXjQdkC",
+          "etag": "cUdBe8dbReI",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/S87LDHXjQdkC",
+          "volumeInfo": {
+              "title": "Why We Build",
+              "subtitle": "Power and Desire in Architecture",
+              "authors": [
+                  "Rowan Moore"
+              ],
+              "publisher": "Harper Collins",
+              "publishedDate": "2013-08-20",
+              "description": "In an era of brash, expensive, provocative new buildings, a prominent critic argues that emotions—such as hope, power, sex, and our changing relationship to the idea of home—are the most powerful force behind architecture, yesterday and (especially) today. We are living in the most dramatic period in architectural history in more than half a century: a time when cityscapes are being redrawn on a yearly basis, architects are testing the very idea of what a building is, and whole cities are being invented overnight in exotic locales or here in the United States. Now, in a bold and wide-ranging new work, Rowan Moore—former director of the Architecture Foundation, now the architecture critic for The Observer—explores the reasons behind these changes in our built environment, and how they in turn are changing the way we live in the world. Taking as his starting point dramatic examples such as the High Line in New York City and the outrageous island experiment of Dubai, Moore then reaches far and wide: back in time to explore the Covent Garden brothels of eighteenth-century London and the fetishistic minimalism of Adolf Loos; across the world to assess a software magnate’s grandiose mansion in Atlanta and Daniel Libeskind’s failed design for the World Trade Center site; and finally to the deeply naturalistic work of Lina Bo Bardi, whom he celebrates as the most underrated architect of the modern era.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780062277596"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0062277596"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": false
+              },
+              "pageCount": 400,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "averageRating": 2,
+              "ratingsCount": 1,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": true,
+              "contentVersion": "1.4.4.0.preview.2",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=S87LDHXjQdkC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=S87LDHXjQdkC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=S87LDHXjQdkC&dq=architecture%22&hl=&as_pt=BOOKS&cd=21&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=S87LDHXjQdkC&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Why_We_Build.html?hl=&id=S87LDHXjQdkC"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true
+              },
+              "pdf": {
+                  "isAvailable": true
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=S87LDHXjQdkC&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Taking as his starting point dramatic examples such as the High Line in New York City and the outrageous island experiment of Dubai, Moore then reaches far and wide: back in time to explore the Covent Garden brothels of eighteenth-century ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "8nY5DwAAQBAJ",
+          "etag": "lYor6CrjUWc",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/8nY5DwAAQBAJ",
+          "volumeInfo": {
+              "title": "Open Prison Architecture",
+              "subtitle": "Design Criteria for a New Prison Typology",
+              "authors": [
+                  "L. Vessella"
+              ],
+              "publisher": "WIT Press",
+              "publishedDate": "2017-09-25",
+              "description": "As a part of the debate on penitentiary architecture, this book proposes a critical interpretation of the conceptual elements and design approaches involved. This proposal, more than others, may “mend” the relationship between theoretical conception and the actual building practice for a prison. The interpretation is developed from the idea that the architectural project, when it materialises in a built structure, is always the material expression of an abstract idea and of a specific vision of the world which manifests itself through the architectural consistency of the building and of the built spaces. The text presented here focuses on the creation of organisational-functional tools for open-regime minimum security structures and on the identification of architectural solutions in which the residential and domestic features of the structures prevail over the typological and distributive layouts typical of traditional penitentiary buildings. The analysis aims at identifying the main essential principles for an efficient design, such as: the location, size, spatial organisation, typology of housing space, and last but not less important, the rationalisation of the internal flows. The key elements identified are summarised into a series of general design criteria aimed at establishing an efficient relationship between the functional model and the typological structure, as well as between the building and the surrounding urban fabric.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781784662479"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "178466247X"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 257,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=8nY5DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=8nY5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=8nY5DwAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=22&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=8nY5DwAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Open_Prison_Architecture.html?hl=&id=8nY5DwAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Open_Prison_Architecture-sample-pdf.acsm?id=8nY5DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=8nY5DwAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "As a part of the debate on penitentiary architecture, this book proposes a critical interpretation of the conceptual elements and design approaches involved."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "qavPCwAAQBAJ",
+          "etag": "OWjvGAaM9U0",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/qavPCwAAQBAJ",
+          "volumeInfo": {
+              "title": "The Architecture of the Soul",
+              "subtitle": "A Unitive Model of the Human Person",
+              "authors": [
+                  "Albert J. LaChance"
+              ],
+              "publisher": "North Atlantic Books",
+              "publishedDate": "2005-12-08",
+              "description": "The Architecture of the Soul introduces and maps out a model of the human person that represents a new way of interpreting and treating human—and by extension global—dysfunction. Arising from the transpersonal and integral schools of psychology, this model provides an alternative to the view of the human person as a product of brain chemistry, whose dysfunctional behavior can be treated through pharmaceuticals and traditional psychology. Based on the author's years of clinical experience treating addiction, the book posits a human psyche made up of three zones of awareness. The first two are reached by present-day psychology, focusing on cognitive and affective disorders, and therapies that treat addictive disorders. The crucial third zone, called Tertiary Awareness, is the 'rudder' of the human personality that contains deep bio- and eco-wisdoms that must be brought to consciousness and cultivated. In explaining how to integrate self and spirit, the author demonstrates how people must be made aware of this zone if we are to survive as a species and a planet.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781556436024"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1556436025"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 273,
+              "printType": "BOOK",
+              "categories": [
+                  "Psychology"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.1.0.0.preview.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=qavPCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=qavPCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=qavPCwAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=23&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=qavPCwAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/The_Architecture_of_the_Soul.html?hl=&id=qavPCwAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=qavPCwAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Based on the author&#39;s years of clinical experience treating addiction, the book posits a human psyche made up of three zones of awareness."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "gaxqDwAAQBAJ",
+          "etag": "LFH3q3tHG6I",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/gaxqDwAAQBAJ",
+          "volumeInfo": {
+              "title": "Gibbs' Book of Architecture",
+              "subtitle": "An Eighteenth-Century Classic",
+              "authors": [
+                  "James Gibbs"
+              ],
+              "publisher": "Courier Corporation",
+              "publishedDate": "2008-01-01",
+              "description": "Gibbs's legendary 1728 folio includes perspectives and blueprints for such magnificent commissions as London's St. Martin in the Fields; the Senate House of the University of Cambridge; plus fine drawings of marble cisterns, iron gates, funeral monuments, and more.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780486466019"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0486466019"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 193,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=gaxqDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=gaxqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=gaxqDwAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=24&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=gaxqDwAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Gibbs_Book_of_Architecture.html?hl=&id=gaxqDwAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Gibbs_Book_of_Architecture-sample-pdf.acsm?id=gaxqDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=gaxqDwAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Gibbs&#39;s legendary 1728 folio includes perspectives and blueprints for such magnificent commissions as London&#39;s St. Martin in the Fields; the Senate House of the University of Cambridge; plus fine drawings of marble cisterns, iron gates, ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "Ad1QAAAAMAAJ",
+          "etag": "KnuQLDy7+hU",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Ad1QAAAAMAAJ",
+          "volumeInfo": {
+              "title": "Readings in Computer Architecture",
+              "authors": [
+                  "Mark D. Hill",
+                  "Gurindar S. Sohi"
+              ],
+              "publisher": "Morgan Kaufmann",
+              "publishedDate": "2000",
+              "description": "Offering a carefully reviewed selection of over 50 papers illustrating the breadth and depth of computer architecture, this text includes insightful introductions to guide readers through the primary sources.",
+              "industryIdentifiers": [
+                  {
+                      "type": "OTHER",
+                      "identifier": "UOM:39015047854537"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 782,
+              "printType": "BOOK",
+              "categories": [
+                  "Computers"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.7.2.0.preview.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=Ad1QAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=Ad1QAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=Ad1QAAAAMAAJ&q=architecture%22&dq=architecture%22&hl=&as_pt=BOOKS&cd=25&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=Ad1QAAAAMAAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Readings_in_Computer_Architecture.html?hl=&id=Ad1QAAAAMAAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=Ad1QAAAAMAAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Offering a carefully reviewed selection of over 50 papers illustrating the breadth and depth of computer architecture, this text includes insightful introductions to guide readers through the primary sources."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "Axo0RwWs1TEC",
+          "etag": "A0MA4bcxDuA",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Axo0RwWs1TEC",
+          "volumeInfo": {
+              "title": "Sustainable Architecture and Urbanism",
+              "subtitle": "Concepts, Technologies, Examples",
+              "authors": [
+                  "Dominique Gauzin-Müller"
+              ],
+              "publisher": "Springer Science & Business Media",
+              "publishedDate": "2002-07-01",
+              "description": "Since the mid-1980s, and in particular the 1992 environmental summit in Rio de Janeiro, sustainability has become a global issue and the subject of international debate. In the context of architecture sustainability implies the use of intelligent technology, innovative construction methods, ecologically friendly materials and use of environmentally-friendly energy resources. This book begins with an overview of the various approaches and developments in sustainable architecture, followed by an in-depth section on urbanism looking at several European towns. In the third section the technologies, materials and methods of ecological architecture are examined. Concluding the volume are 23 sophisticated and innovative European case studies. The author and architect Dominique Gauzin-Müller has specialised on energy and environmental issues and ecological architecture for over 15 years.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "3764366591"
+                  },
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9783764366599"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 264,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "averageRating": 5,
+              "ratingsCount": 1,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.3.4.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=Axo0RwWs1TEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=Axo0RwWs1TEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=Axo0RwWs1TEC&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=26&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=Axo0RwWs1TEC&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Sustainable_Architecture_and_Urbanism.html?hl=&id=Axo0RwWs1TEC"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Sustainable_Architecture_and_Urbanism-sample-pdf.acsm?id=Axo0RwWs1TEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=Axo0RwWs1TEC&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "This book begins with an overview of the various approaches and developments in sustainable architecture, followed by an in-depth section on urbanism looking at several European towns."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "iuwGCwAAQBAJ",
+          "etag": "nvQdSgk0F2c",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/iuwGCwAAQBAJ",
+          "volumeInfo": {
+              "title": "A Companion to Greek Architecture",
+              "authors": [
+                  "Margaret M. Miles"
+              ],
+              "publisher": "John Wiley & Sons",
+              "publishedDate": "2020-05-05",
+              "description": "A Companion to Greek Architecture provides an expansive overview of the topic, including design, engineering, and construction as well as theory, reception, and lasting impact. Covers both sacred and secular structures and complexes, with particular attention to architectural decoration, such as sculpture, interior design, floor mosaics, and wall painting Makes use of new research from computer-driven technologies, the study of inscriptions and archaeological evidence, and recently excavated buildings Brings together original scholarship from an esteemed group of archaeologists and art historians Presents the most up-to-date English language coverage of Greek architecture in several decades while also sketching out important areas and structures in need of further research",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781119245537"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1119245532"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 615,
+              "printType": "BOOK",
+              "categories": [
+                  "Literary Criticism"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.1.2.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=iuwGCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=iuwGCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=iuwGCwAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=27&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=iuwGCwAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/A_Companion_to_Greek_Architecture.html?hl=&id=iuwGCwAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/A_Companion_to_Greek_Architecture-sample-pdf.acsm?id=iuwGCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=iuwGCwAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "As the most up-to-date English-language volume on Greek architecture in several decades, this is an essential resource for those studying ancient art and architecture."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "jf8xAQAAIAAJ",
+          "etag": "mFXdj2IQJ00",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/jf8xAQAAIAAJ",
+          "volumeInfo": {
+              "title": "Architecture",
+              "subtitle": "The AIA Journal",
+              "publishedDate": "2006",
+              "industryIdentifiers": [
+                  {
+                      "type": "OTHER",
+                      "identifier": "UCSC:32106018601671"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 278,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "2.9.5.0.preview.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=jf8xAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=jf8xAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=jf8xAQAAIAAJ&q=architecture%22&dq=architecture%22&hl=&as_pt=BOOKS&cd=28&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=jf8xAQAAIAAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Architecture.html?hl=&id=jf8xAQAAIAAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=jf8xAQAAIAAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "... <b>Architecture</b> Director, <b>Architecture</b> Program Philadelphia University invites applications and nominations for the position of <b>Architecture</b> Program Director in the School of <b>Architecture</b>. The position is a renewable-contract appointment&nbsp;..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "XkN-Kg2ppDcC",
+          "etag": "SaSkyFvlcwI",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/XkN-Kg2ppDcC",
+          "volumeInfo": {
+              "title": "Architecture and the Sciences",
+              "subtitle": "Exchanging Metaphors",
+              "authors": [
+                  "Associate Professor of Architecture Alessandra Ponte",
+                  "Antoine Picon",
+                  "Alessandra Ponte"
+              ],
+              "publisher": "Princeton Architectural Press",
+              "publishedDate": "2003-05",
+              "description": "Since antiquity, the sciences have served as a source of images and metaphors for architecture and have had a direct influence on the shaping of built space. In recent years, architects have been looking again at science as a source of inspiration in the production of their designs and constructions. This volume evaluates the interconnections between the sciences and architecture from both historical and contemporary perspectives. Architecture and the Sciences shows how scientific paradigms have migrated to architecture through the appropriation of organic and mechanical models. Conversely, architecture has provided images for scientific and technological discourse. Accordingly, this volume investigates the status of the exchanges between the two domains.Contents include: Alessandra Ponte, Desert Testing; Martin Bressani, Violet-le-Duc's Optic; Georges Teyssot, Norm and Type: Variations on a Theme; Reinhold Martin, Organicism's Other; Catherine Ingraham, Why All These Birds? Birds in the Sky, Birds in the Hand; Antoine Picon, Architecture, Science, Technology and the Virtual Realm; and Felicity Scott, Encounters with the Face of America.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1568983654"
+                  },
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781568983653"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 364,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.4.6.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=XkN-Kg2ppDcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=XkN-Kg2ppDcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=XkN-Kg2ppDcC&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=29&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=XkN-Kg2ppDcC&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Architecture_and_the_Sciences.html?hl=&id=XkN-Kg2ppDcC"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Architecture_and_the_Sciences-sample-pdf.acsm?id=XkN-Kg2ppDcC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=XkN-Kg2ppDcC&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "This volume evaluates the interconnections between the sciences and architecture from both historical and contemporary perspectives."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "lBBQAAAAMAAJ",
+          "etag": "tMDYaPecafo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/lBBQAAAAMAAJ",
+          "volumeInfo": {
+              "title": "Jerusalem Architecture",
+              "authors": [
+                  "David Kroyanker"
+              ],
+              "publisher": "Vendome Press",
+              "publishedDate": "1994",
+              "description": "One of Israel's leading city planners provides a pictorial and textual survey of the Holy City's architecture. it explores the old City's history and carries the reader through the ages via its architectural Opulance. the city is filled with one-of-a-kind properties which exclude it from definition in terms of traditional urban expression.",
+              "industryIdentifiers": [
+                  {
+                      "type": "OTHER",
+                      "identifier": "UOM:39015055891900"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 224,
+              "printType": "BOOK",
+              "categories": [
+                  "Art"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.3.1.0.preview.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=lBBQAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=lBBQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=lBBQAAAAMAAJ&q=architecture%22&dq=architecture%22&hl=&as_pt=BOOKS&cd=30&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=lBBQAAAAMAAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Jerusalem_Architecture.html?hl=&id=lBBQAAAAMAAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=lBBQAAAAMAAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "One of Israel&#39;s leading city planners provides a pictorial and textual survey of the Holy City&#39;s architecture. it explores the old City&#39;s history and carries the reader through the ages via its architectural Opulance. the city is filled ..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "E-wtCgAAQBAJ",
+          "etag": "yXBSfzQjqJg",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/E-wtCgAAQBAJ",
+          "volumeInfo": {
+              "title": "Gunnar Asplund's Gothenburg",
+              "subtitle": "The Transformation of Public Architecture in Interwar Europe",
+              "authors": [
+                  "Nicholas Adams"
+              ],
+              "publisher": "Penn State Press",
+              "publishedDate": "2014-10-08",
+              "description": "In the west coast port city of Gothenburg, Sweden, the architect Gunnar Asplund built a modest extension to an old courthouse on the main square (1934–36). Judged today to be one of the finest works of modern architecture, the courthouse extension was immediately the object of a negative newspaper campaign led by one of the most noted editors of the day, Torgny Segerstedt. Famous for his determined opposition to National Socialism, he also took a principled stand against the undermining of urban tradition in Gothenburg. Gothenburg’s problems with modern public architecture, though clamorous and publicized throughout Sweden, were by no means unique. In Gunnar Asplund’s Gothenburg, Nicholas Adams places Asplund’s building in the wider context of public architecture between the wars, setting the originality and sensitivity of Asplund’s conception against the political and architectural struggles of the 1930s. Today, looking at the building in the broadest of contexts, we can appreciate the richness of this exquisite work of architecture. This book recaptures the complex magic of its creation and the fascinating controversy of its completed form.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780271065236"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0271065230"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 493,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.1.2.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=E-wtCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=E-wtCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=E-wtCgAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=31&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=E-wtCgAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Gunnar_Asplund_s_Gothenburg.html?hl=&id=E-wtCgAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Gunnar_Asplund_s_Gothenburg-sample-epub.acsm?id=E-wtCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Gunnar_Asplund_s_Gothenburg-sample-pdf.acsm?id=E-wtCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=E-wtCgAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Today, looking at the building in the broadest of contexts, we can appreciate the richness of this exquisite work of architecture. This book recaptures the complex magic of its creation and the fascinating controversy of its completed form."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "xrxNEAAAQBAJ",
+          "etag": "6SI+IfqZXLw",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/xrxNEAAAQBAJ",
+          "volumeInfo": {
+              "title": "Thermal Delight in Architecture",
+              "authors": [
+                  "Lisa Heschong"
+              ],
+              "publisher": "MIT Press",
+              "publishedDate": "1979-12-05",
+              "description": "Our thermal environment is as rich in cultural associations as our visual, acoustic, olfactory, and tactile environments. This book explores the potential for using thermal qualities as an expressive element in building design. Until quite recently, building technology and design has favored high-energy-consuming mechanical methods of neutralizing the thermal environment. It has not responded to the various ways that people use, remember, and care about the thermal environment and how they associate their thermal sense with their other senses. The hearth fire, the sauna, the Roman and Japanese baths, and the Islamic garden are discussed as archetypes of thermal delight about which rituals have developed—reinforcing bonds of affection and ceremony forged in the thermal experience. Not only is thermal symbolism now obsolete but the modern emphasis on central heating systems and air conditioning and hermetically sealed buildings has actually damaged our thermal coping and sensing mechanisms. This book for the solar age could help change all that and open up for us a new dimension of architectural experience. As the cost of energy continues to skyrocket, alternatives to the use of mechanical force must be developed to meet our thermal needs. A major alternative is the use of passive solar energy, and the book will provide those interested in solar design with a reservoir of ideas.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780262580397"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "026258039X"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": false
+              },
+              "pageCount": 0,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "averageRating": 4,
+              "ratingsCount": 1,
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "preview-1.0.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=xrxNEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=xrxNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=xrxNEAAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&cd=32&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=xrxNEAAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Thermal_Delight_in_Architecture.html?hl=&id=xrxNEAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=xrxNEAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Our thermal environment is as rich in cultural associations as our visual, acoustic, olfactory, and tactile environments. This book explores the potential for using thermal qualities as an expressive element in building design."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "TFHYb97Pf5MC",
+          "etag": "rVQ7rhAdQRM",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/TFHYb97Pf5MC",
+          "volumeInfo": {
+              "title": "François Blondel",
+              "subtitle": "Architecture, Erudition, and the Scientific Revolution",
+              "authors": [
+                  "Anthony Gerbino"
+              ],
+              "publisher": "Routledge",
+              "publishedDate": "2012-12-06",
+              "description": "First director of the Académie royale d’architecture, François Blondel established a lasting model for architectural education that helped transform a still largely medieval profession into the one we recognize today. Most well known for his 1676 urban plan of Paris, Blondel is also celebrated as a mathematician, scientist, and scholar. Few figures are more representative of the close affinity between architecture and the \"new science\" of the seventeenth century. The first full-length study in English to appear on this polymath, this book adds to the scholarship on early modern architectural history and particularly on French classicism under Louis XIV and his minister Jean-Baptiste Colbert. It studies early modern science and technology, Baroque court culture, and the development of the discipline of architecture.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781135694876"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1135694877"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 346,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "2.6.5.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=TFHYb97Pf5MC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=TFHYb97Pf5MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=TFHYb97Pf5MC&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=33&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=TFHYb97Pf5MC&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Fran%C3%A7ois_Blondel.html?hl=&id=TFHYb97Pf5MC"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Fran%C3%A7ois_Blondel-sample-epub.acsm?id=TFHYb97Pf5MC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Fran%C3%A7ois_Blondel-sample-pdf.acsm?id=TFHYb97Pf5MC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=TFHYb97Pf5MC&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "The first full-length study in English to appear on this polymath, this book adds to the scholarship on early modern architectural history and particularly on French classicism under Louis XIV and his minister Jean-Baptiste Colbert."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "M41UAAAAMAAJ",
+          "etag": "164mQaR8t8Q",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/M41UAAAAMAAJ",
+          "volumeInfo": {
+              "title": "Process, Architecture",
+              "publishedDate": "1996",
+              "industryIdentifiers": [
+                  {
+                      "type": "OTHER",
+                      "identifier": "UOM:39015036243080"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 498,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.6.6.0.preview.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=M41UAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=M41UAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=M41UAAAAMAAJ&q=architecture%22&dq=architecture%22&hl=&as_pt=BOOKS&cd=34&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=M41UAAAAMAAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Process_Architecture.html?hl=&id=M41UAAAAMAAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=M41UAAAAMAAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "... <b>Architecture</b> j 105 Troughton McAslan Architects 2,990 Feature: The Landscape of Water-city 2.580 8 Ulnth Franzen.<b>Architecture</b> in Transition 2.781 106 Mitsuo Taki <b>Architectural</b> Dialogues with Greenery 2.990 28 Feature: The Landscape with&nbsp;..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "cRXTBQAAQBAJ",
+          "etag": "W0AfJLRZqWw",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/cRXTBQAAQBAJ",
+          "volumeInfo": {
+              "title": "Space Architecture",
+              "subtitle": "The New Frontier for Design Research",
+              "authors": [
+                  "Neil Leach"
+              ],
+              "publisher": "John Wiley & Sons",
+              "publishedDate": "2015-01-12",
+              "description": "Forty years on from the first moon landing, architecture in Space is entering a new era. Over the last decade, there has been a fundamental shift in the Space industry from short-term pioneering expeditions to long-term planning for colonisation, and new ventures such as Space tourism. Architects are now involved in designing the interiors of long-term habitable structures in Space, such as the International Space Station, researching advanced robotic fabrication technologies for building structures on the Moon and Mars, envisioning new 'space yachts' for the super-rich, and building new facilities, such as the Virgin Galactic 'Spaceport America' in New Mexico designed by Foster + Partners. Meanwhile the mystique of Space remains as alluring as ever, as high-profile designers and educators – such as Greg Lynn – are running designs studios drawing upon ever more inventive computational design techniques. This issue of AD features the most significant current projects underway and highlights key areas of research in Space, such as energy, materials, manufacture and robotics. It also looks at how this research and investment in new technologies might transfer to terrestrial design and construction. Space architects: Constance Adams, Marc Cohen, Ondrej Doule, Sandra Häuplik-Meusburger, Scott Howe, Brent Sherwood, Madhu Thangavelu, Andreas Vogler, Robert Zubrin. Architects: Bevk Perovic Arhitekti, Dekleva Gregoric Arhitekti, Foster + Partners, Neil Leach, Greg Lynn, OFIS architects, SADAR + VUGA.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781118663301"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1118663306"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 136,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.1.0.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=cRXTBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=cRXTBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=cRXTBQAAQBAJ&pg=PA13&dq=architecture%22&hl=&as_pt=BOOKS&cd=35&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=cRXTBQAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Space_Architecture.html?hl=&id=cRXTBQAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Space_Architecture-sample-pdf.acsm?id=cRXTBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=cRXTBQAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "... <b>architecture</b>, particularly in architectures for human space flight at NASA and as president of Synthesis International. She shares the design copyright on the first human-rated inflatable spacecraft and has received several NASA awards&nbsp;..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "ovIJBAAAQBAJ",
+          "etag": "dJ3RvqiA8aQ",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/ovIJBAAAQBAJ",
+          "volumeInfo": {
+              "title": "Architecture In Use",
+              "authors": [
+                  "DJM van der Voordt",
+                  "HBR van Wegen"
+              ],
+              "publisher": "Routledge",
+              "publishedDate": "2007-06-01",
+              "description": "This unique book discusses programming, design and building evaluation providing a ‘joined up’ approach to building design. By linking the functional and architectonic qualities of a building, the authors show the practical implications of the utility value of buildings. Starting by looking at how the relationship between form and function has been dealt with by different approaches to architecture from a historical perspective, it goes on to discuss how the desired functional quality and utility value of a building can be expressed in a brief and given a physical form by the architect. Finally, it advises on how to carry out post-occupancy evaluation and provides the architect with methods and techniques for testing whether the intended utility value of a building has been achieved.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781136428395"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1136428399"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 326,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.3.1.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=ovIJBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=ovIJBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=ovIJBAAAQBAJ&pg=PA69&dq=architecture%22&hl=&as_pt=BOOKS&cd=36&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=ovIJBAAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Architecture_In_Use.html?hl=&id=ovIJBAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Architecture_In_Use-sample-pdf.acsm?id=ovIJBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=ovIJBAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "... <b>architecture</b> and aesthetics. Yale University Press, New Haven. Hitchcock, H.R., P. Johnson (1932), The international style. <b>Architecture</b> since 1922. New York. Ibelings, H. (1999), De functie van de vorm [The function of form]. Van den&nbsp;..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "clpQAAAAMAAJ",
+          "etag": "MyH64yI9/x4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/clpQAAAAMAAJ",
+          "volumeInfo": {
+              "title": "Takasaki Masaharu",
+              "subtitle": "An Architecture of Cosmology",
+              "authors": [
+                  "Masaharu Takasaki"
+              ],
+              "publishedDate": "1998",
+              "description": "The work of Tokyo-based architect Takasaki Masaharu, one of the most exciting and original architects working today, has captivated those interested in individual and animated design. Although his work is not widely known outside his own country, for twenty years he has been creating unusual structures throughout Japan. He recently received an award from the Japan Institute of Architects as the most outstanding young architect in the country. Takasaki's designs combine the organic and the mythological. He describes his architecture as an \"environmental being\" that connects humanity with the cosmos. These philosophies manifest themselves in his use of egg-shaped forms, diffused light to create mystical interiors, and skewed columns and planes. The eight projects explored in this monograph include Crystal Light in Tokyo, Tamana City Observatory Museum in Kumamoto, Earth Architecture in Tokyo, and Kihoku-cho Astronomical Museum in Kagoshima. Each building is thoroughly described through text, photographs, and drawings. Also included is an illustrated list of the architect's projects and a critical text by Botond Bognar, author of \"The Japan Guide\".",
+              "industryIdentifiers": [
+                  {
+                      "type": "OTHER",
+                      "identifier": "UOM:39015041914287"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": false
+              },
+              "pageCount": 190,
+              "printType": "BOOK",
+              "categories": [
+                  "Architects"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.8.7.0.preview.0",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=clpQAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=clpQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=clpQAAAAMAAJ&q=architecture%22&dq=architecture%22&hl=&as_pt=BOOKS&cd=37&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=clpQAAAAMAAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Takasaki_Masaharu.html?hl=&id=clpQAAAAMAAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "NO_PAGES",
+              "embeddable": false,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": false
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=clpQAAAAMAAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "NONE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "The work of Tokyo-based architect Takasaki Masaharu, one of the most exciting and original architects working today, has captivated those interested in individual and animated design."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "BShHAAAAQBAJ",
+          "etag": "QzneZy7ugto",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/BShHAAAAQBAJ",
+          "volumeInfo": {
+              "title": "Foundations of Landscape Architecture",
+              "subtitle": "Integrating Form and Space Using the Language of Site Design",
+              "authors": [
+                  "Norman Booth"
+              ],
+              "publisher": "John Wiley & Sons",
+              "publishedDate": "2011-11-30",
+              "description": "A visually engaging introduction to landscape architecturaldesign Landscape architectural design seeks to create environments thataccommodate users' varying lifestyles and needs, incorporatecultural heritage, promote sustainability, and integrate functionalrequirements for optimal enjoyment. Foundations of LandscapeArchitecture introduces the foundational concepts needed toeffectively integrate space and form in landscape design. With over five hundred hand-rendered and digital drawings, aswell as photographs, Foundations of Landscape Architectureillustrates the importance of spatial language. It introducesconcepts, typologies, and rudimentary principles of form and space.Including designs for projects such as parks, campuses, andmemorials, this text provides the core concepts necessary fordesigners to shape functional landscapes. Additionally, chaptersdiscuss organizational and spatial design structures based onorthogonal forms, angular forms, and circular forms. Helping students, professionals, and lifelong learners alike,Foundations of Landscape Arch-itecture delivers a concreteunderstanding of landscape architectural design to inspire one'simagination for countless types of projects.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781118129470"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "1118129474"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 384,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "1.1.2.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=BShHAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=BShHAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=BShHAAAAQBAJ&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=38&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=BShHAAAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Foundations_of_Landscape_Architecture.html?hl=&id=BShHAAAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Foundations_of_Landscape_Architecture-sample-epub.acsm?id=BShHAAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Foundations_of_Landscape_Architecture-sample-pdf.acsm?id=BShHAAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=BShHAAAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "Including designs for projects such as parks, campuses, and memorials, this text provides the core concepts necessary for designers to shape functional landscapes."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "ZsK1CwAAQBAJ",
+          "etag": "rvPEk7asEn4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/ZsK1CwAAQBAJ",
+          "volumeInfo": {
+              "title": "Architecture, Liberty and Civic Order",
+              "subtitle": "Architectural Theories from Vitruvius to Jefferson and Beyond",
+              "authors": [
+                  "Carroll William Westfall"
+              ],
+              "publisher": "Routledge",
+              "publishedDate": "2016-03-09",
+              "description": "This book brings to light central topics that are neglected in current histories and theories of architecture and urbanism. These include the role of imitation in earlier centuries and its potential role in present practice; the necessary relationship between architecture, urbanism and the rural districts; and their counterpart in the civil order that builds and uses what is built. The narrative traces two models for the practice of architecture. One follows the ancient model in which the architect renders his service to serve the interests of others; it survives and is dominant in modernism. The other, first formulated in the fifteenth century by Leon Battista Alberti, has the architect use his talent in coordination with others to contribute to the common good of a republican civil order that seeks to protect its own liberty and that of its citizens. Palladio practiced this way, and so did Thomas Jefferson when he founded a uniquely American architecture, the counterpart to the nation’s founding. This narrative gives particular emphasis to the contrasting developments in architecture on the opposite sides of the English Channel. The book presents the value for clients and architects today and in the future of drawing on history and tradition. It stresses the importance, indeed, the urgency, of restoring traditional practices so that we can build just, beautiful, and sustainable cities and rural districts that will once again assist citizens in living not only abundantly but also well as they pursue their happiness.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9781317178989"
+                  },
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "131717898X"
+                  }
+              ],
+              "readingModes": {
+                  "text": true,
+                  "image": true
+              },
+              "pageCount": 254,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.2.3.0.preview.3",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=ZsK1CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=ZsK1CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=ZsK1CwAAQBAJ&pg=PT121&dq=architecture%22&hl=&as_pt=BOOKS&cd=39&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=ZsK1CwAAQBAJ&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/Architecture_Liberty_and_Civic_Order.html?hl=&id=ZsK1CwAAQBAJ"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Architecture_Liberty_and_Civic_Order-sample-epub.acsm?id=ZsK1CwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/Architecture_Liberty_and_Civic_Order-sample-pdf.acsm?id=ZsK1CwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=ZsK1CwAAQBAJ&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "<b>Architectural</b> Theories from Vitruvius to Jefferson and Beyond Carroll William Westfall. The <b>Architectural</b> Drawings of ... <b>Architecture</b>,” American Arts Quarterly, 27: 1 (2010), 17–27. The essential introduction, written as a contribution&nbsp;..."
+          }
+      },
+      {
+          "kind": "books#volume",
+          "id": "J_Iy3PkstesC",
+          "etag": "JZ+9HxkFbEo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/J_Iy3PkstesC",
+          "volumeInfo": {
+              "title": "The Historiography of Modern Architecture",
+              "authors": [
+                  "Panayotis Tournikiotis"
+              ],
+              "publisher": "MIT Press",
+              "publishedDate": "2001-02-27",
+              "description": "The history of modern architecture as constructed by historians and key texts. Writing, according to Panayotis Tournikiotis, has always exerted a powerful influence on architecture. Indeed, the study of modern architecture cannot be separated from a fascination with the texts that have tried to explain the idea of a new architecture in a new society. During the last forty years, the question of the relationship of architecture to its history—of buildings to books—has been one of the most important themes in debates about the course of modern architecture. Tournikiotis argues that the history of modern architecture tends to be written from the present, projecting back onto the past our current concerns, so that the \"beginning\" of the story really functions as a \"representation\" of its end. In this book the buildings are the quotations, while the texts are the structure. Tournikiotis focuses on a group of books by major historians of the twentieth century: Nikolaus Pevsner, Emil Kaufmann, Sigfried Giedion, Bruno Zevi, Leonardo Benevolo, Henry-Russell Hitchcock, Reyner Banham, Peter Collins, and Manfredo Tafuri. In examining these writers' thoughts, he draws on concepts from critical theory, relating architecture to broader historical models.",
+              "industryIdentifiers": [
+                  {
+                      "type": "ISBN_10",
+                      "identifier": "0262700859"
+                  },
+                  {
+                      "type": "ISBN_13",
+                      "identifier": "9780262700856"
+                  }
+              ],
+              "readingModes": {
+                  "text": false,
+                  "image": true
+              },
+              "pageCount": 372,
+              "printType": "BOOK",
+              "categories": [
+                  "Architecture"
+              ],
+              "maturityRating": "NOT_MATURE",
+              "allowAnonLogging": false,
+              "contentVersion": "0.4.4.0.preview.1",
+              "panelizationSummary": {
+                  "containsEpubBubbles": false,
+                  "containsImageBubbles": false
+              },
+              "imageLinks": {
+                  "smallThumbnail": "http://books.google.com/books/content?id=J_Iy3PkstesC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                  "thumbnail": "http://books.google.com/books/content?id=J_Iy3PkstesC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+              },
+              "language": "en",
+              "previewLink": "http://books.google.com/books?id=J_Iy3PkstesC&printsec=frontcover&dq=architecture%22&hl=&as_pt=BOOKS&cd=40&source=gbs_api",
+              "infoLink": "http://books.google.com/books?id=J_Iy3PkstesC&dq=architecture%22&hl=&as_pt=BOOKS&source=gbs_api",
+              "canonicalVolumeLink": "https://books.google.com/books/about/The_Historiography_of_Modern_Architectur.html?hl=&id=J_Iy3PkstesC"
+          },
+          "saleInfo": {
+              "country": "RS",
+              "saleability": "NOT_FOR_SALE",
+              "isEbook": false
+          },
+          "accessInfo": {
+              "country": "RS",
+              "viewability": "PARTIAL",
+              "embeddable": true,
+              "publicDomain": false,
+              "textToSpeechPermission": "ALLOWED",
+              "epub": {
+                  "isAvailable": false
+              },
+              "pdf": {
+                  "isAvailable": true,
+                  "acsTokenLink": "http://books.google.com/books/download/The_Historiography_of_Modern_Architectur-sample-pdf.acsm?id=J_Iy3PkstesC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+              },
+              "webReaderLink": "http://play.google.com/books/reader?id=J_Iy3PkstesC&hl=&as_pt=BOOKS&source=gbs_api",
+              "accessViewStatus": "SAMPLE",
+              "quoteSharingAllowed": false
+          },
+          "searchInfo": {
+              "textSnippet": "In this book the buildings are the quotations, while the texts are the structure."
+          }
+      }
+  ]
+}

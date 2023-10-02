@@ -17,20 +17,20 @@
           {{ book.volumeInfo.title }}
       </span>
       <span class="catalog__title">
-        {{ book.volumeInfo.authors[0]}}
+        {{ book.volumeInfo.authors?.[0]}}
       </span>
         <span class="catalog__text">
         {{ book.volumeInfo.description }}
         </span>
     </div>
     <div class="icon__wrapp">
-      <ButtonComponent @onClick="handleClick" @click="saveStatusLocalStorage"
+      <ButtonComponent @onClick="handleClick"
       v-if="!isFavorite" 
       icon="iconMark" 
       class="icon__color">
       </ButtonComponent>
       
-      <ButtonComponent @onClick="handleClick" @click="saveStatusLocalStorage"
+      <ButtonComponent @onClick="handleClick"
       v-if="isFavorite" 
       icon="iconMark"
       class="icon__color--active">
@@ -69,24 +69,24 @@ export default defineComponent({
        return favoritesBooks.value.items.some((b) => b.id === props.book.id);
     });
 
-    const saveStatusLocalStorage = (isFavorite) => {
-      localStorage.setItem("isFavorite", JSON.stringify(isFavorite));
-    }
+    /* const saveStatusLocalStorage = () => {
+      localStorage.setItem("favorites", JSON.stringify(isFavorite));
+    } */
 
-    const getLocalStorage = () => {
+/*     const getLocalStorage = () => {
       const value = localStorage.getItem("isFavorite");
       if (value) {
         const favoritesData = JSON.parse(value);
       return favoritesData;
       }
     }
-    getLocalStorage()
+    getLocalStorage() */
     
     const handleClick = () => {
       emit("handleClick", props.book);
     };
 
-    return { getImage, handleClick, favoritesBooks, isFavorite, saveStatusLocalStorage, getLocalStorage };
+    return { getImage, handleClick, favoritesBooks, isFavorite };
   },
   
 });

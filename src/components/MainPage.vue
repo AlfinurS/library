@@ -25,6 +25,7 @@ export default defineComponent({
 
 <style scoped lang="scss">
 .catalog {
+  margin-top: 20px;
   margin-left: 8px;
   margin-right: 8px;
   @media (min-width: 576px) {
