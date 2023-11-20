@@ -4,6 +4,7 @@
       <div class="header__logo">
         <img src="/logo.png" alt="logo" width="58" height="58" />
       </div>
+
       <div class="header__menu">
         <div class="header__menu-item">
           <router-link class="header__menu-item" active-class="header__menu--active" :to="{ name: 'MainPage' }">
@@ -16,17 +17,62 @@
           </router-link>
         </div>
       </div>
+      <div class="catalog__head">
+        <InputComponent
+          @onInput="setSearch"
+          :dataProps="form.search"
+          icon="iconSearch"
+          placeholder="Search..."
+        />
+        <div class="catalog__head-btns">
+          <PaginationComponent
+            :params="paginationData"
+            class="catalog__pagination"
+          />
+        </div>
+      </div>
     </div>
   </header>
 </template>
 
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, computed, reactive } from "vue";
+import { useStore } from "vuex";
+import { bookListType } from "@/types/common";
+import PaginationComponent from "@/components/parts/PaginationComponent.vue";
+import InputComponent from "@/components/parts/InputComponent.vue";
 
 export default defineComponent({
   name: "HeaderComponent",
-  components: {  },
+  components: { 
+    PaginationComponent,
+    InputComponent,
+   },
+
+  setup() {
+    const store = useStore();
+    const favoritesBooks = computed(
+      (): bookListType => store.getters["favorites/favoritesBooks"]);
+    const books = computed(
+      (): bookListType => store.getters["favorites/books"]);
+
+    const form = reactive({
+      search: "",
+    });
+
+    const setSearch = (data) => { 
+      form.search = data;
+      if (form.search !== "") {
+        const regexp = new RegExp(form.search, "i");
+         const filtered = books.value.items.filter(
+          (book) => regexp.test(book.volumeInfo.title) || regexp.test(book.volumeInfo.subtitle));
+        return filtered
+      }
+    }
+
+  return { favoritesBooks, books, form, setSearch }
+  }
 });
 </script>
 

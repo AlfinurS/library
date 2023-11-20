@@ -78,3 +78,9 @@ export type bookType = {
     "quoteSharingAllowed": boolean
   }
 };
+
+export type paginationType = {
+  page: number;
+  page_size: number;
+  count: number;
+}

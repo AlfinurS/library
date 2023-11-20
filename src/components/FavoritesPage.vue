@@ -123,7 +123,7 @@ export default defineComponent({
     margin-bottom: 20px;
     box-shadow: 0px 5px 7px -2px rgba(154, 128, 184, 0.329);
     border-radius: 18px;
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     padding: 18px 18px;
       @media (min-width: 748px) {
         flex-direction: row;

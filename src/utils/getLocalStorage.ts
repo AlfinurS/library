@@ -1,16 +1,12 @@
 import { bookConst } from "@/components/constants/common";
 import { bookListType, bookType } from "@/types/common";
-
+import { useStore } from "vuex";
 
 export function getLocalStorage() {
-  const value = localStorage.getItem("favoritesBooks");
-  const authBooks: bookListType = { 
-    items: [],
-    kind: '',
-    totalItems: 0,
-   };
+  const store = useStore();
+  const value = localStorage.getItem("favorites");
   if (value) {
-    authBooks["book"] = JSON.parse(value);
+    const favoritesData: bookType[] = JSON.parse(value);
+    store.dispatch("favorites/setFavoritesBooks", {items: favoritesData})
   }
-  return authBooks.items;
 }

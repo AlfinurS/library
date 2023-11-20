@@ -10,10 +10,11 @@
   </ul>
 </template>
 <script lang="ts">
-import { defineComponent, inject, computed } from "vue";
+import { defineComponent, inject, computed, PropType } from "vue";
 import { useStore } from "vuex";
 import ItemBookComponent from "@/components/parts/ItemBookComponent.vue";
 import { bookListType, bookType } from "@/types/common";
+import { getLocalStorage } from "@/utils/getLocalStorage";
 
 export default defineComponent({
   name: "ListBooksComponent",
@@ -21,7 +22,14 @@ export default defineComponent({
     ItemBookComponent,
   },
 
-  setup() {
+  props: {
+    dataProps: {
+      type: Object as PropType<bookType>,
+      default: () => ({}),
+    },
+  },
+
+  setup(props) {
     const axios: any = inject("axios");
     const store = useStore();
     const url = `https://www.googleapis.com/books/v1/volumes?q=architecture%22&key=&printType=books&maxResults=40`;
@@ -30,7 +38,7 @@ export default defineComponent({
       (): bookListType => store.getters["favorites/favoritesBooks"]);
     const books = computed(
       (): bookListType => store.getters["favorites/books"]);
-      
+
     const getBooks = () => {
       axios
         .get(url)
@@ -43,11 +51,10 @@ export default defineComponent({
     };
     getBooks()
 
-
     const saveLocalStorage = (favorites) => {
       localStorage.setItem("favorites", JSON.stringify(favorites));
     }
-      //currentBook - объект, result - объект
+
     const handleClick = (book) => {
       const result = JSON.parse(JSON.stringify(favoritesBooks.value));
       const currentBook = result.items.find((item: bookType) => item.id === book.id);
@@ -63,18 +70,15 @@ export default defineComponent({
       store.dispatch("favorites/setFavoritesBooks", result)
     };
 
-
-    const getLocalStorage = () => {
-      const value = localStorage.getItem("favorites");
-      if (value) {
-        const favoritesData: bookType[] = JSON.parse(value);
-        store.dispatch("favorites/setFavoritesBooks", {items: favoritesData})
-      }
-    }
     getLocalStorage()
     
-
-    return { getBooks, books, favoritesBooks, handleClick };
+    const setSearch = (props) => { 
+      props.dataProps = books;
+      console.log(props.dataProps);
+    }
+    setSearch(props)
+    
+    return { getBooks, books, favoritesBooks, handleClick, setSearch };
   },
 });
 </script>
@@ -108,7 +112,7 @@ export default defineComponent({
     width: 100%;
     box-shadow: 1px 5px 7px -2px rgba(154, 128, 184, 0.329);
     border-radius: 18px;
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     padding: 38px 30px;
       @media (max-width: 1320px) {
         max-width: 320px;

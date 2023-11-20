@@ -1,6 +1,7 @@
 <template>
+
   <div class="catalog">
-        <ListBooksComponent />
+      <ListBooksComponent />
   </div>
 </template>
 
@@ -14,7 +15,6 @@ export default defineComponent({
   ListBooksComponent,
   },
   
-
   setup() {
     
     return {  };

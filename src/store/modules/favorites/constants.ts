@@ -2,7 +2,7 @@ import { bookListType, bookType } from "@/types/common";
 
 type favouritesType = {
   books: bookListType;
-  favoritesBooks: {items: bookType[]}
+  favoritesBooks: {items: bookType[]};
 }
 
 export const TMP_STATE: favouritesType = {
@@ -14,5 +14,6 @@ export const TMP_STATE: favouritesType = {
   
   favoritesBooks:{
     items: [],
-  }
+  },
+  
 };
