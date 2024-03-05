@@ -1,7 +1,7 @@
 <template>
   <div>
     <main class="main">
-      <slot />
+      <slot>Содержимое по умолчанию</slot>
     </main>
   </div>
 </template>

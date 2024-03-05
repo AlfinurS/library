@@ -1,21 +1,20 @@
 <template>
   <div class="layout">
-    <HeaderComponent></HeaderComponent>
-    <main>
-      <router-view />
-    </main>
+    <div >
+      <Default class="content"><router-view /></Default>
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, computed } from 'vue';
 import { useRoute } from "vue-router";
-import HeaderComponent from "@/components/parts/HeaderComponent.vue";
+import Default from "@/components/layouts/Default.vue";
 
 export default defineComponent({
   name: 'App',
   components: {
-    HeaderComponent,
+    Default,
   },
   setup() {
     const route = useRoute();
@@ -29,8 +28,9 @@ export default defineComponent({
 });
 </script>
 
-
 <style lang="scss">
-@import "@/assets/scss/style.scss";
+.content {
+  display: flex;
+  width: 100%;
+}
 </style>
-

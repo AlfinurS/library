@@ -38,6 +38,7 @@
           </li>
         </ul>
   </div>
+  <todo-button>Добавить todo</todo-button>
 </template>
 
 <script lang="ts">
