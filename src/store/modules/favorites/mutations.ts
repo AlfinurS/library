@@ -10,6 +10,10 @@ export default {
     state.favoritesBooks.push(book);
   },
 
+  SET_STORAGE_BOOKS(state, favoritesData) {
+    state.favoritesBooks = favoritesData;
+  },
+
   SET_SEARCH_RESULTS(state, searchResults) {
     state.searchResults = searchResults;
   },

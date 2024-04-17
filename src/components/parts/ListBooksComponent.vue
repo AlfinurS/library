@@ -83,10 +83,15 @@ export default defineComponent({
         store.commit('favorites/SET_FAVORITES_BOOKS', book);
       }
       saveFavoritesToLocalStorage();
+      saveBooksToLocalStorage();
     };
 
     const saveFavoritesToLocalStorage = () => {
       localStorage.setItem('favorites', JSON.stringify(favoritesMap));
+    };
+
+    const saveBooksToLocalStorage = () => {
+      localStorage.setItem("favoritesBooks", JSON.stringify(favoritesBooks.value));
     };
 
     const loadFavoritesFromLocalStorage = () => {
@@ -103,7 +108,6 @@ export default defineComponent({
       searchBooks(form.search);
     };
 
-    
     watch(favoritesMap, () => {
       saveFavoritesToLocalStorage();
     });

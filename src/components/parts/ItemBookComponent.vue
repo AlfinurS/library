@@ -33,7 +33,6 @@
         class="icon__color--active">
       </ButtonComponent>
     </div>
-    {{ isFavorite }}
   </div>
 </template>
 <script lang="ts">
@@ -71,19 +70,8 @@ export default defineComponent({
     const handleClick = (book) => {
       emit('handleClick', book )
     };
-    const saveStatusLocalStorage = () => {
-      localStorage.setItem("favorites", JSON.stringify(props.book));
-    };
 
-    const getLocalStorage = () => {
-      const value = localStorage.getItem("favorites");
-      if (value) {
-        const favoritesData = JSON.parse(value);
-      return favoritesData;
-      }
-    };
-    getLocalStorage();
-    return { getImage, handleClick, favoritesBooks, saveStatusLocalStorage };
+    return { getImage, handleClick, favoritesBooks,  };
   },
   
 });

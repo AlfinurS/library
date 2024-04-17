@@ -6,6 +6,7 @@
 import { defineComponent, computed } from 'vue';
 import { useRoute } from "vue-router";
 import Default from "@/components/layouts/Default.vue";
+import { useStore } from "vuex";
 
 export default defineComponent({
   name: 'App',
@@ -16,6 +17,12 @@ export default defineComponent({
   setup() {
     const route = useRoute();
     const layout = computed(() => route.meta.layout || "Default");
+    const store = useStore();
+    const initInfo = () => {
+      store.dispatch("favorites/initializeFavoritesFromLocalStorage");
+    };
+    initInfo();
+
 
     return {
         layout,

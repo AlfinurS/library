@@ -10,6 +10,14 @@ export default {
     commit("SET_FAVORITES_BOOKS", favoritesBooks);
   },
 
+  initializeFavoritesFromLocalStorage ({ commit }) {
+    const favoritesDataString = localStorage.getItem("favoritesBooks");
+    const favoritesData = favoritesDataString ? JSON.parse(favoritesDataString) : null;
+    if (favoritesData) {
+      commit("SET_STORAGE_BOOKS", favoritesData);
+    }
+  },
+
   async searchBook({ commit, state }, {query, params}) {
     let result;
     if (query !== '') {

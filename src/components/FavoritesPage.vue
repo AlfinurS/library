@@ -40,7 +40,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from "vue";
+import { defineComponent, computed, reactive, watch } from "vue";
 import { useStore } from "vuex";
 import ButtonComponent from "@/components/parts/ButtonComponent.vue";
 import { bookType } from "@/types/common";
@@ -54,26 +54,38 @@ export default defineComponent({
     const store = useStore();
     const favoritesBooks = computed(() => store.getters["favorites/favoritesBooks"]);
     const books = computed(() => store.getters["favorites/books"]);
-
+    const favoritesMap = reactive({});
     const getImage = (image): string => {
       return `${image}`;
     }
 
-    const saveLocalStorage = (favorites) => {
-      localStorage.setItem("favorites", JSON.stringify(favorites));
-    };
-
     const removeBook = (book: bookType) => {
-      if (Array.isArray(favoritesBooks.value)) {
-        const updatedBooks = favoritesBooks.value.filter((item) => item.id !== book.id);
-        saveLocalStorage(updatedBooks);
-        store.dispatch("favorites/setFavoritesBooks", updatedBooks );
-      } else {
-        console.error("favoritesBooks");
+      const isFavorite = favoritesMap[book.id];
+      favoritesMap[book.id] = !isFavorite;
+      const result = JSON.parse(JSON.stringify(favoritesBooks.value));
+      const currentBook = result.find((item) => item.id === book.id);
+      if (currentBook) {
+        store.commit('favorites/REMOVE_BOOK_FROM_FAVORITES', currentBook.id);
+        saveFavoritesToLocalStorage();
       }
     }
 
-    return { getImage, books, favoritesBooks, removeBook };
+    const saveFavoritesToLocalStorage = () => {
+      localStorage.setItem('favorites', JSON.stringify(favoritesMap));
+    };
+    const loadFavoritesFromLocalStorage = () => {
+      const savedFavorites = localStorage.getItem('favorites');
+      if (savedFavorites) {
+        Object.assign(favoritesMap, JSON.parse(savedFavorites));
+      }
+    };
+    loadFavoritesFromLocalStorage();
+
+    watch(favoritesBooks, (newValue) => {
+      localStorage.setItem("favoritesBooks", JSON.stringify(newValue));
+    }, { deep: true });
+
+    return { getImage, books, favoritesBooks, removeBook, favoritesMap };
   },
 });
 </script>
