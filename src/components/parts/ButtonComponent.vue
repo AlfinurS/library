@@ -1,7 +1,6 @@
 <template>
   <button
     @click="onClick"
-    :type="type"
     :disabled="disabled"
     :class="classProps"
     class="button-component"

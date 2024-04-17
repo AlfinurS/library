@@ -42,7 +42,7 @@ export default defineComponent({
   },
 
   setup(props, { emit }) {
-    const data = ref(props.dataProps);
+    const data = ref("");
     const onInput = (): void => {
       emit("onInput", data.value);
     };
@@ -50,13 +50,6 @@ export default defineComponent({
     const onChange = (): void => {
       emit("onChange", data.value);
     };
-
-    watch(
-      () => props.dataProps,
-      (newValue) => {
-        data.value = newValue;
-      }
-    );
 
     return {
       data,
@@ -78,11 +71,15 @@ export default defineComponent({
   box-sizing: border-box;
   flex-direction: row;
   align-items: center;
-  background-color: #fff;
-  border-radius: 30px;
-  font-size: 17px;
+  background-color: #fefeff;
+  border-radius: 6px;
+  font-size: 14px;
   font-weight: 400;
   color: #f4f5f5;
+  &:hover {
+    background-color: #c5bee0;
+    color: #37474f;
+  }
   &__input {
     border: none;
     background: transparent;

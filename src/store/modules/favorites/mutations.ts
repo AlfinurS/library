@@ -6,8 +6,16 @@ export default {
     state.books = books;
   },
 
-  SET_FAVORITES_BOOKS(state, favoritesBooks) {
-    state.favoritesBooks = favoritesBooks;
+  SET_FAVORITES_BOOKS(state, book) {
+    state.favoritesBooks.push(book);
+  },
+
+  SET_SEARCH_RESULTS(state, searchResults) {
+    state.searchResults = searchResults;
+  },
+  
+  REMOVE_BOOK_FROM_FAVORITES(state, bookId) {
+    state.favoritesBooks = state.favoritesBooks.filter(book => book.id !== bookId);
   },
 
   RESET(state) {

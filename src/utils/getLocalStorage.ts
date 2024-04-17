@@ -6,7 +6,7 @@ export function getLocalStorage() {
   const store = useStore();
   const value = localStorage.getItem("favorites");
   if (value) {
-    const favoritesData: bookType[] = JSON.parse(value);
-    store.dispatch("favorites/setFavoritesBooks", {items: favoritesData})
+    const favoritesData: bookType = JSON.parse(value);
+    store.dispatch("favorites/setFavoritesBooks", favoritesData)
   }
 }

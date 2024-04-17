@@ -1,27 +1,26 @@
 <template>
-  <div class="aside__wrapper">
-    <div class="aside custom-scroll"> 
-      <div class="aside__collapse">
-        <div class="aside__collapse-hero">
-          <h3 class="aside__hero-title">
-            Главное меню
-          </h3>
-          <div class="header__menu">
-            <div class="header__menu-item">
-              <router-link class="header__menu-item" active-class="header__menu--active" :to="{ name: 'MainPage' }">
-                All books
-              </router-link>
-            </div>
-            <div class="header__menu-item">
-              <router-link class="header__menu-item" active-class="header__menu--active" :to="{ name: 'FavoritesPage' }">
-                Wishlist
-              </router-link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    <v-navigation-drawer
+      expand-on-hover
+      rail
+      >
+      <v-list>
+        <v-list-item
+          prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg"
+          subtitle="sandra_a88@gmailcom"
+          title="Sandra Adams"
+        ></v-list-item>
+      </v-list>
+      <v-divider></v-divider>
+
+        <v-list density="compact" nav>
+          <router-link :to="{ name: 'MainPage' }" class="aside__menu--item" active-class="aside__menu--active" >
+            <v-list-item prepend-icon="mdi-folder" title="All books" value="allbooks"></v-list-item>
+          </router-link>
+          <router-link :to="{ name: 'FavoritesPage' }" class="aside__menu--item" active-class="aside__menu--active">
+            <v-list-item prepend-icon="mdi-account-multiple" title="Wishlist" value="wishlist"></v-list-item>
+          </router-link>
+        </v-list>
+    </v-navigation-drawer>
 </template>
 
 
@@ -31,84 +30,25 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "AsideComponent",
   components: { 
+
    },
 
 });
 </script>
 
 <style lang="scss" scoped>
-.header {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1280px;
-  box-sizing: border-box;
-  margin-bottom: 40px;
-  &__logo {
-    @media (max-width: 576px) {
-      margin-bottom: 30px;
-    }
-  }
-  &__box {
-    padding-top: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 72px;
-    margin-left: 8px;
-    margin-right: 8px;
-    @media (min-width: 576px) {
-      flex-direction: row;
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-    @media (min-width: 1200px) {
-      margin: 0 auto;
-    }
-  }
-  &__hero {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 20px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #8168f0;
-  }
+.aside {
   &__menu {
-    display: flex;
-    &-item {
-      font-size: 18px;
-      font-weight: 400;
-      text-transform: uppercase;
-      color: #8168f0;
-      margin-left: 18px;
+    &--item {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color:#2121213F;
     }
     &--active {
-      color: #576875;
+      color: #8168f0;
+      cursor: none;
     }
-  }
-}
-.aside {
-  height: calc(100vh - 112px);
-  overflow-y: scroll;
-  overflow-x: hidden;
-  &__wrapper {
-    position: relative;
-  }
-  &__title {
-    line-height: 16px;
-    height: 16px;
-  }
-  &__collapse {
-    width: 100%;
-    &-hero {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-  &__hero-title {
-    margin-left: 20px;
   }
 }
 </style>

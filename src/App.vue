@@ -1,9 +1,5 @@
 <template>
-  <div class="layout">
-    <div >
-      <Default class="content"><router-view /></Default>
-    </div>
-  </div>
+    <Default class="content"><router-view /></Default>
 </template>
 
 <script lang="ts">
@@ -16,21 +12,24 @@ export default defineComponent({
   components: {
     Default,
   },
+  
   setup() {
     const route = useRoute();
     const layout = computed(() => route.meta.layout || "Default");
-  
+
     return {
-      layout,
-    };
+        layout,
+      };
   }
 
 });
 </script>
 
 <style lang="scss">
+@import "@/assets/scss/style.scss";
 .content {
   display: flex;
   width: 100%;
 }
 </style>
+

@@ -1,85 +1,118 @@
 <template>
-  <ul class="catalog__grid">
+  <div class="catalog__wrapper">
+    <ul class="catalog__grid">
       <li
         class="catalog__item"
-        v-for="book in books.items"
+        v-for="book in searchResults"
         :key="book.id"
       >
-        <ItemBookComponent :book="book" @handleClick="handleClick"></ItemBookComponent>
+        <ItemBookComponent 
+          :book="book"
+          :is-favorite="favoritesMap[book.id]"
+           @handleClick="handleClick(book)"
+        >
+        </ItemBookComponent>
       </li>
-  </ul>
+    </ul>
+  </div>
+
+  <div class="catalog__pagination">
+    <PaginationComponent
+      :params="form.paginationData"
+      @setPage="handleCurrentChange"
+    />
+  </div>
 </template>
 <script lang="ts">
-import { defineComponent, inject, computed, PropType } from "vue";
+import { defineComponent, computed, reactive, onMounted, watch } from "vue";
 import { useStore } from "vuex";
 import ItemBookComponent from "@/components/parts/ItemBookComponent.vue";
-import { bookListType, bookType } from "@/types/common";
-import { getLocalStorage } from "@/utils/getLocalStorage";
+import PaginationComponent from "@/components/parts/PaginationComponent.vue";
+import { bookListType, paginationType } from "@/types/common";
+import getBooks from "@/api/getBooks"
+
+const initPaginationData = (): paginationType => ({
+  page: 1,
+  page_size: 12,
+  count: 0,
+});
 
 export default defineComponent({
   name: "ListBooksComponent",
   components: {
     ItemBookComponent,
+    PaginationComponent,
   },
 
-  props: {
-    dataProps: {
-      type: Object as PropType<bookType>,
-      default: () => ({}),
-    },
-  },
-
-  setup(props) {
-    const axios: any = inject("axios");
+  setup() {
     const store = useStore();
-    const url = `https://www.googleapis.com/books/v1/volumes?q=architecture%22&key=&printType=books&maxResults=40`;
-    
-    const favoritesBooks = computed(
-      (): bookListType => store.getters["favorites/favoritesBooks"]);
+    const favoritesBooks = computed(() => store.getters["favorites/favoritesBooks"]);
     const books = computed(
       (): bookListType => store.getters["favorites/books"]);
+    const searchResults = computed(() => store.getters["favorites/searchResults"]);
 
-    const getBooks = () => {
-      axios
-        .get(url)
-        .then(( { data }: { data: bookListType }) => {
-          store.dispatch("favorites/addBooks", data);
-        })
-        .catch(() => {
-          console.log("error");
-        });
-    };
-    getBooks()
+    const form = reactive({
+      search: "",
+      paginationData: initPaginationData() as paginationType,
+    });
+    const favoritesMap = reactive({});
 
-    const saveLocalStorage = (favorites) => {
-      localStorage.setItem("favorites", JSON.stringify(favorites));
+    async function loadData() {
+      try {
+        const response = await getBooks();
+        store.dispatch("favorites/addBooks", response);
+        form.paginationData.count = response.items.length;
+        searchBooks(form.search);
+      } catch (error) {
+        console.log("error");
+      }
     }
+
+    const searchBooks = (query) => {
+       store.dispatch("favorites/searchBook", {query, params: form.paginationData});
+    };
 
     const handleClick = (book) => {
-      const result = JSON.parse(JSON.stringify(favoritesBooks.value));
-      const currentBook = result.items.find((item: bookType) => item.id === book.id);
-      if (currentBook) {
-        const index = result.items.indexOf(currentBook);
-        if (index !== -1) {
-          result.items.splice(index, 1);
-        }
-      } else { 
-        result.items.push(book);
+      const isFavorite = favoritesMap[book.id];
+      favoritesMap[book.id] = !isFavorite;
+      if (isFavorite) {
+        const result = JSON.parse(JSON.stringify(favoritesBooks.value));
+        const currentBook = result.find((item) => item.id === book.id);
+        store.commit('favorites/REMOVE_BOOK_FROM_FAVORITES', currentBook.id);
+      } else {
+        store.commit('favorites/SET_FAVORITES_BOOKS', book);
       }
-      saveLocalStorage(result.items);
-      store.dispatch("favorites/setFavoritesBooks", result)
+      saveFavoritesToLocalStorage();
     };
 
-    getLocalStorage()
+    const saveFavoritesToLocalStorage = () => {
+      localStorage.setItem('favorites', JSON.stringify(favoritesMap));
+    };
+
+    const loadFavoritesFromLocalStorage = () => {
+      const savedFavorites = localStorage.getItem('favorites');
+      if (savedFavorites) {
+        Object.assign(favoritesMap, JSON.parse(savedFavorites));
+      }
+    };
+
+    loadFavoritesFromLocalStorage();
+
+    const handleCurrentChange = (val: number) => {
+      form.paginationData.page = val;
+      searchBooks(form.search);
+    };
+
     
-    const setSearch = (props) => { 
-      props.dataProps = books;
-      console.log(props.dataProps);
-    }
-    setSearch(props)
+    watch(favoritesMap, () => {
+      saveFavoritesToLocalStorage();
+    });
     
-    return { getBooks, books, favoritesBooks, handleClick, setSearch };
+    onMounted(loadData);
+
+    return { books, favoritesBooks, handleClick, handleCurrentChange, form, searchResults, favoritesMap };
   },
+  
 });
 </script>
 
@@ -110,9 +143,9 @@ export default defineComponent({
     justify-content: center;
     max-width: 250px;
     width: 100%;
-    box-shadow: 1px 5px 7px -2px rgba(154, 128, 184, 0.329);
+    box-shadow: 1px 5px 7px -2px rgba(158, 132, 182, 0.329);
     border-radius: 18px;
-    background-color: #f5f5f5;
+    background-color: #f3f0ff;
     padding: 38px 30px;
       @media (max-width: 1320px) {
         max-width: 320px;
@@ -126,6 +159,13 @@ export default defineComponent({
       @media (max-width: 470px) {
         max-width: 250px;
     }
+  }
+  &__wrapper {
+    min-height: calc(100vh - 100px);
+    margin-bottom: 20px;
+  }
+  &__pagination {
+    display: flex;
   }
 }
 </style>

@@ -58,7 +58,7 @@ export default defineComponent({
     const store = useStore();
     const route = useRoute();
     const favoritesBooks = computed(
-      (): bookListType => store.getters["favorites/favoritesBooks"]);
+      () => store.getters["favorites/favoritesBooks"]);
     const books = computed(
       (): bookListType => store.getters["favorites/books"]);
 

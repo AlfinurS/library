@@ -1,15 +1,17 @@
 <template>
-  <div class="common-layout">
-    <div class="header-wrapper">
-      <HeaderComponent></HeaderComponent>
-    </div>
-    <div class="aside-wrapper">
-      <AsideComponent />
-    </div>
-    <main class="main-wrapper">
-      <slot />
-    </main>
-  </div>
+    <v-app>
+      <v-app-bar class="header">
+        <HeaderComponent />
+      </v-app-bar>
+
+      <div>
+        <AsideComponent />
+      </div>
+
+      <v-main class="d-flex align-center justify-center main-wrapper" >
+        <slot />
+      </v-main>
+    </v-app>
 </template>
 
 <script lang="ts">
@@ -28,23 +30,15 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-.header-wrapper {
-  margin-left: -8px;
-  box-shadow: 0 4px 2px -2px rgb(0 0 0 / 14%);
-}
-.aside-wrapper {
-  box-shadow: 3px 1px 18px 0px rgb(48 50 50 / 15%);
-  margin-top: 3px;
-}
-.aside-fullscreen {
-  width: 100vw;
-  height: calc(100vh - 64px);
-}
+
 .main-wrapper {
-  padding: 20px;
+  padding: 80px;
   display: block;
   flex: 1;
   box-sizing: border-box;
 }
+.header {
+  box-shadow: 1px 5px 7px -2px rgba(158, 132, 182, 0.329) !important;
+  }
 </style>
 

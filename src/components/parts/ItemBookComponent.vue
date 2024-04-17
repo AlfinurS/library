@@ -19,23 +19,21 @@
       <span class="catalog__title">
         {{ book.volumeInfo.authors?.[0]}}
       </span>
-        <span class="catalog__text">
-        {{ book.volumeInfo.description }}
-        </span>
     </div>
     <div class="icon__wrapp">
-      <ButtonComponent @onClick="handleClick"
-      v-if="!isFavorite" 
-      icon="iconMark" 
-      class="icon__color">
+      <ButtonComponent @onClick="handleClick(book)"
+        v-if="!isFavorite" 
+        icon="iconMark" 
+        class="icon__color">
       </ButtonComponent>
       
-      <ButtonComponent @onClick="handleClick"
-      v-if="isFavorite" 
-      icon="iconMark"
-      class="icon__color--active">
+      <ButtonComponent @onClick="handleClick(book)"
+        v-else
+        icon="iconMark"
+        class="icon__color--active">
       </ButtonComponent>
     </div>
+    {{ isFavorite }}
   </div>
 </template>
 <script lang="ts">
@@ -56,6 +54,10 @@ export default defineComponent({
     book: {
       type: Object as PropType<bookType>,
       default: () => bookConst,
+    },
+    isFavorite: {
+      type: Boolean,
+      default: false,
     }
   },
 
@@ -65,28 +67,23 @@ export default defineComponent({
     const getImage = (image): string => {
       return `${image}`;
     }
-    const isFavorite = computed((): boolean => {
-       return favoritesBooks.value.items.some((b) => b.id === props.book.id);
-    });
 
-    /* const saveStatusLocalStorage = () => {
-      localStorage.setItem("favorites", JSON.stringify(isFavorite));
-    } */
+    const handleClick = (book) => {
+      emit('handleClick', book )
+    };
+    const saveStatusLocalStorage = () => {
+      localStorage.setItem("favorites", JSON.stringify(props.book));
+    };
 
-/*     const getLocalStorage = () => {
-      const value = localStorage.getItem("isFavorite");
+    const getLocalStorage = () => {
+      const value = localStorage.getItem("favorites");
       if (value) {
         const favoritesData = JSON.parse(value);
       return favoritesData;
       }
-    }
-    getLocalStorage() */
-    
-    const handleClick = () => {
-      emit("handleClick", props.book);
     };
-
-    return { getImage, handleClick, favoritesBooks, isFavorite };
+    getLocalStorage();
+    return { getImage, handleClick, favoritesBooks, saveStatusLocalStorage };
   },
   
 });
@@ -121,8 +118,7 @@ export default defineComponent({
   &__title {
     font-size: 13px;
     font-weight: 400;
-    text-transform: uppercase;
-    color: #536068;
+    color: #37474f;
     margin-top: 12px;
     text-align: center;
   }
@@ -130,7 +126,7 @@ export default defineComponent({
     font-size: 12px;
     margin-top: 8px;
     text-transform: lowercase;
-    color: #37474f;
+    color: #2121213F;
     text-align: center;
   }
   &__content {
@@ -152,11 +148,11 @@ export default defineComponent({
     color: #b1adaf;
   }
   &__color--active {
-    color: #F70085;
+    color: #aa2abb;
   }
   &__wrapp:hover {
     opacity: 0.7;
-}
+  }
 }
 
 </style>

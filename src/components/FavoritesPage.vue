@@ -1,44 +1,42 @@
 <template>
-  <div class="catalog__header">
-    <span class="catalog__header--headline">Wishlist</span>
-    <div class="catalog__header--subtitel" v-if="favoritesBooks.items.length === 0">
-      <span class="catalog__subtitel">Your favorite books </span>
-      <span  class="catalog__text">Add book that catch your eye to your personal wishlist for later. </span>
-    </div>
-  </div>
-
   <div class="catalog">
-        <ul v-if="favoritesBooks" class="catalog__list">
-          <li
-            class="catalog__item"
-            v-for="book in favoritesBooks.items"
-            :key="book.id"
+    <div class="catalog__header">
+      <span class="catalog__header--headline">Wishlist</span>
+      <div class="catalog__header--subtitel" v-if="favoritesBooks.length === 0">
+        <span class="catalog__subtitel">Your favorite books </span>
+        <span  class="catalog__text">Add book that catch your eye to your personal wishlist for later. </span>
+      </div>
+    </div>
+    <ul v-if="favoritesBooks" class="catalog__list">
+      <li
+        class="catalog__item"
+        v-for="book in favoritesBooks"
+        :key="book.id"
+      >
+        <router-link
+          :to="{ name: 'BookDetailsPage', params: { id: book.id } }"
+          class="catalog__image-wrapper link"
+        >
+        <div class="catalog__image-wrapp">
+          <img
+            class="catalog__image"
+            :src="getImage(book.volumeInfo.imageLinks.smallThumbnail)"
+            :alt="book.volumeInfo.title"
           >
-            <router-link
-              :to="{ name: 'BookDetailsPage', params: { id: book.id } }"
-              class="catalog__image-wrapper link"
-            >
-            <div class="catalog__image-wrapp">
-              <img
-                class="catalog__image"
-                :src="getImage(book.volumeInfo.imageLinks.smallThumbnail)"
-                :alt="book.volumeInfo.title"
-              >
-            </div>
-            </router-link>
-            <div class="catalog__content">
-              <span class="catalog__title">
-                {{ book.volumeInfo.authors[0]}}
-              </span>
-              <span class="catalog__title">
-                  {{ book.volumeInfo.title }}
-              </span>
-            </div>
-            <div class="icon__wrapp"><ButtonComponent icon="iconMark" class="icon__color--active" @onClick="removeBook(book)"/></div>
-          </li>
-        </ul>
+        </div>
+        </router-link>
+        <div class="catalog__content">
+          <span class="catalog__title">
+            {{ book.volumeInfo.authors[0]}}
+          </span>
+          <span class="catalog__title">
+              {{ book.volumeInfo.title }}
+          </span>
+        </div>
+        <div class="icon__wrapp"><ButtonComponent icon="iconMark" class="icon__color--active" @onClick="removeBook(book)"/></div>
+      </li>
+    </ul>
   </div>
-  <todo-button>Добавить todo</todo-button>
 </template>
 
 <script lang="ts">
@@ -61,14 +59,18 @@ export default defineComponent({
       return `${image}`;
     }
 
-    const removeBook = (book) => {
-      const result = JSON.parse(JSON.stringify(favoritesBooks.value));
-      const currentBook = result.items.find((item: bookType) => item.id === book.id);
-      if (currentBook) {
-        const index = result.items.indexOf(currentBook);
-        result.items.splice(index, 1);
+    const saveLocalStorage = (favorites) => {
+      localStorage.setItem("favorites", JSON.stringify(favorites));
+    };
+
+    const removeBook = (book: bookType) => {
+      if (Array.isArray(favoritesBooks.value)) {
+        const updatedBooks = favoritesBooks.value.filter((item) => item.id !== book.id);
+        saveLocalStorage(updatedBooks);
+        store.dispatch("favorites/setFavoritesBooks", updatedBooks );
+      } else {
+        console.error("favoritesBooks");
       }
-      store.dispatch("favorites/setFavoritesBooks", result)
     }
 
     return { getImage, books, favoritesBooks, removeBook };
@@ -122,9 +124,9 @@ export default defineComponent({
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    box-shadow: 0px 5px 7px -2px rgba(154, 128, 184, 0.329);
+    box-shadow: 0px 5px 7px -2px rgba(158, 132, 182, 0.329);
     border-radius: 18px;
-    background-color: #f5f5f5;
+    background-color: #f3f0ff;
     padding: 18px 18px;
       @media (min-width: 748px) {
         flex-direction: row;
@@ -170,7 +172,7 @@ export default defineComponent({
     cursor: pointer;
   }
   &__color--active {
-    color: #F70085;
+    color: #aa2abb;
   }
   &__wrapp:hover {
     opacity: 0.7;
